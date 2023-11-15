@@ -1,0 +1,156 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_WINDEVVueRDV
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_WINDEVVueRDV
+ identifier : 0x228b97ad17524d22
+ internal_properties : CAAAAAgAAAAMvTgI17EnTitSdME0GE4tiyyWMZOGIWBNAAB7qxRD9BBR8N8HVhb1B/BWfmKHNnKNAUdKKEsoZfTz43UV22+gYOLCOlDTG2u/tv1avv72BUHgmbVQoZJszMAH6vKrTmxgIeqx61OFTlseic3p95rNdiOHjNVue+5XxJdaa3Voyz2IF3JO1S46Dg3BCjr7T8IMDlHSIMKB512wymG2FYJyIrvmZ6BGnmeHqAMELGynp7Wp2H5/4bgODK8711yRa7G/zPYnBrI1gTpxqg3ay2lgIrkfbDoIOhCXqyy5u2yQPFf3/6vGedQnJLsPzozotB+zzIVlZml1ZHWRJR/OKZSc8TDoXt6AmQ73nB8adTL2B/0iGPBub+WW4ctyPOZKGot410qvQ+7A8BrQ9Fo+F5e0k0bazApF0uR1DNUN8b7FQ64AfFRRWARv/ldWjxxwYr8Ak0oMCVQ9zW2wYLYO1zeicut9CtpfIz1x4bPF/IIHpvbPiZMEWl6IAAod/YOHNXSnwFjrouenNLEZ3zWydSTXTpfY6WnQqtabK9gENhGBmAhPMw+ecvI2y3IhyXkseWmGKTrstWkF578bbkLGKH8oVlMZaz9ON+/PDp7q+GMRiiNOa+sSM2pxwMGgnlhSWGY7B7CWeLZVKlPg5dTDYh41Ui5ovqvb5cW9hvI11HlT4AIormKTyA==
+ properties :
+  width : 175
+  height : 225
+ controls :
+  -
+    name : FI_WINDEVVueRDV
+    identifier : 0x228b97ad17534d22
+    internal_properties : CAAAAAgAAAAArwLAzQ1DYJr/Qy2o7fN5OB0KE1mkVcFhMKTBBxo3fYS5E34JWUghbXCgY9FVK0PGq4fV8OI5ZF36FdYGVQVgXn3MWcswigfevk9cQ/IEORy3YxsgCdo2L8hqXGLooWK/cwv84tyI7fJMVuTXdyD8ZiIY4B+Lc8CobqnX2vwhCPk9XjBy0Sn1MPYRQZN5u/qTMOmcnj75iND08QTXB+webLqo3OFfKAdT5kI1aaeBQXGHkepecpFpzUZbkgm83hHV4BaaZVCZhxAzK7HzUNYG9rPBX7FRTcEaEfL3otI2RTAxZ8QFsPukCDdFFw6M7W25J7JTINrgNcGHILEww8FA2LGN4r+AHijtlX+ju0RlFfiIRaNJ2iF694IlWq8hJSHsMQavR4f9Qo8W2kAQ8Ek8zxbYTqbfqfukA6NfiezUqEilzhsHXyFDz+7u+nwJVSGsAJmUYRK7FyPPbKziDz6dWGUcP9/NnXUcP/EekTI=
+    properties :
+     width : 175
+     height : 225
+    controls :
+     -
+       name : LIB_TitreRDV
+       identifier : 0x228b97ad17564d22
+       internal_properties : CAAAAAgAAAClGq7wa6nqHpCrqtRc+s2QP2C13xmVz1MjYj0spq8dTwCnsUripGF+ivm+YBkXc+Q1d3z6D8B12/6NTMQhiuXVGsorixcrLLft1arJXPVHIKhfZKk6xa9hs5OrH863q8Z0fnECceIwaqUeJk5v5KSHlAhbUkt5+cZj2bWjSZya2BRl3XOIZzS4w3C+7/71XYvLjRob2vOarLb+qQiHg2LVJsQbP4xzZIwj5l2KGeT+Yp2jAmDqhKEukbXYtp0+VgT+Ybc39duqvsTxCXzALx2gT73XLbuJl7OKqSjvbXuoWbykQ+0gFM07eXcIhB5ZlFRXcp9Cl4L97WuWiJgFNMC4MkmgUWMh5fC8dzE6bnJQhvGl5l0OgoHi+TLpcX88X8lfVRcDp02AF3bki3uToU5jQF/Pta1jYvTjb/9Jcy7JDFte9FDAL8NrYr4govC11mPWdMsJgxnTQWCk2c812aqmEiFjdHWry7XanLgEouLA9uWnI9pw4aUBk1vyzBhuE/BPmbE5BQ9mRcK5b48iIYONOLqA1JZZxOhnzw==
+       properties :
+        x : 6
+        y : 1
+        width : 163
+        height : 23
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Image1
+       identifier : 0x228b97ad17574d22
+       internal_properties : CAAAAAgAAAAJlyLS/jmvGH8xYdShyh2t8F5o7f4MCs6sVqBdPFKRP63fQaKSr/GZplP5yCq8R3I7Pl7s6mTuxslPynr6d+IBjl2AFoD5c7UT/++BCWPp33JZZcKXmEFZGfgVpajKV+mxUIaWyAYGyIogxYfN0h2XGCUYCzWQUoy83eE9A8fG+VQj3477w2FxqQJBbVAI3K3TtRQFYdBspAnrrHEDmeNkG+Fq3RMa4Ad6PZ8g1TKak3pjRPpBYYe15L1gvWek4gvHS69g5EMarFwaA4GBp3d3SW7Nu+mlghLnmFdZtdcakrkFWocx5zx2EJbGkRNlxDRCxx7xRXznNow1Wrc35JMStvEGTrgGvwE4HVqjekjENI6pCFhHjnVW6o760x0VHmTLNTWeR7pLIJiNItd3bHL0ghWITh9LEmrygDQjst6ypml1/liH5ANPRiN3clk/OliQAYosdSsGfc7m6hkeJNkz91v/Pwuuc1FlEWvZxv/93C0K2HxvZeUjyzgUGr/C8rWONgmxByIEHNcaW0MAa+pG3yCcgEF2RL640RgX/bwEXJaiAf74+yk/xVwqzkbvAbKAOiCYtbJHrKScNHiFCs6MRQfj+0Fh9cnGVKzIJVo6E07eFCNe3Wy6vDE9NfQsNpYxgLzxD+Ad75LwFI5UqdNKuQRILTlQ6u+0At0WdVkg8wrZpBr7AaruyR05agNwqLTnu/EQIc9L9L0rxGUWF2LzHK7iBYMy5Pt/7AX1ocbMIJ8wKBVu67KjR9oR36SRBaXyjcF1qlXWJCCwHGjGYz1+fwuvdS/hwRFODl6dbGs5ABE1joQjikbR+wdmIJsTYcGYHk1UpYi+j/1/ui2CXt193egGPuzr
+       properties :
+        x : 3
+        y : 206
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Important
+       identifier : 0x228b97ad17584d22
+       internal_properties : CAAAAAgAAACYmrBJe8dSyNf+v6+FEZVhsoO5OCq/yFJ3wYTR6t7NhqbZBOb7ocM2rf1qOeKDs8MR9TOmgEjTMXlZ13maDY++TwwIWnoPiHMvf5x3yMYXoO32sIayLli7J7UmveKQ0NutK+9Pg/+6znjgUHnBRDeknJLEU5S1H63fjPID/9EAqLzI2JhZ6x5VRjpx1eOhstqIdJM5AU69DSZZAZiCnyi8vNwROMNIGiFhpmSDSgNSA+fQbNxg/2kWq9zCcftezRZJu3iAxjuW9apEfxav56KCfhEflIfoNoHFLVel6zEr1eu/z2TMl5vyABr7UWJ2bbaRYvxKciJqf0excy0A7BUok0MCa+HEwFYz9/+XOTwjTxy9rP51mlsV8CFr3sBZE8DUQT7JxHoF+eCWJVTmu3smJscEGjG/wLsTjzsBLN9xP9aCq9N7pXJidmmOyTeGfOrKBCJNVd0VNGpK96vg6/ta2qwxuUY4G1IMEBQGurJDVK76rkK3wI0ctFHoQtmB0NQxjUSnSUyKfkZlU4AYGgy5QvbTIs0mGFt0McWco6Ud3Aat+yRoUrFQ5+JIpo74rbMxlbXU8nxiHRGD9pxFZ3QMIUqiAkcFx8wgr0gYA+w0zSTbkqshKWHFBFs5ojj1GtMzRJw2+1fXCMB8UPgVerEKlvZK6mYN6QzX+gW3XTqsamZLZ8Yuq2nu7Tnspl9p0VQxozHqr51qaSj7bg0+EKKgAuZYPfPjmMPUh9FsDxkCSXNFXbJR1GjlvWUKlGTrCckByHmoKsNVHiVKZ2u+c8JFD8JPrglXtPR2rlxx2KqpPPs0ctD+5vzJk7pPRSB8paYPRrAb45kzMCbzi5UQztINEc1bnb3YQYBpB+HvwLfE3OphU/Q/2KUsf2CWSqngMtl6kpPDTUVnr6ckcbGl8bOvf+Qtq/Tui44=
+       properties :
+        x : 156
+        y : 206
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_REPETITION
+       identifier : 0x228b97ad17594d22
+       internal_properties : CAAAAAgAAAAXFepcYl4xK5zNP06fRMIkqdVyPRYo9XLsaUxBN50EAT/6DxEEQADcpi8HiOx6KDirzkFhgPtVy1otEsh1MKXIAoyLdG7/13LAD4Ewg9NATdqxhDODTy8sAE0/7HUqIdp/spYoVMipg/+3Y+rn8o5N3IeCNh0MyxXPTIhrKfqar2ADI19RCH+8YOy5yAhI9vSP633FdCtS+3J3cnKBHXMf2jWPKw6tvRmuEfMR9Q34ZyTLjaPxGMDbjdTX5cYJ+owQxaa9/kvVuxVaLFP1T1DCUfhoQqBi96icfVyZiVgCUEkDsdSFiArx+xH4YonQNLBCPeN0f4ETYaM8zOx/4c5UbJBzVMJwI6mc5db+QGiYZfpL/CMYTYECn/+nvCj88rYdB81Bmx8D6BZsUAQMLJs9g1j7GGXBicY39SCaYPTe0vl0Vt08mtI/U02KtvLvv4111gI+ZbCzSRb9ifql6B28sPo5qUptM6JA1GuGp5civJTtmfeOIKUymGWXkP8fA4h9yUUzoBv3CdNNs38c5CubnBvUd2VM755Wv90pX1gNWgokpDWj4BpEmm9Oyjw4Wv7OwFFa5GhuK+jEW7tAsqFmkuFlTXEvGyYZvFh6nX7yaxRj0rW8B1rTjAmjseJB9wZGyeL8kgo8TxS3/qtiq0miF6Faz0OBnleNss9XbuFaFSWMtClREiafZ+5y4O5GHBlh9zWubb67C6jVQZxcGlUgSUMXHv0sU+RUAEZvJL8xtymLSXHMQd8r6cZv+AOnIjEA9IXEasxk0t+ctGdwjZavy5yT6o+v3AF/3YL5koiq99Ihe7cHSv4lec5vC9Yq9nF0IRxkqy3QeazKONjn91BB+oXzaDiwJf/keqjH2vHvFaxthSCBjtdAJ9Ak/LDs8UbeYM3+fCY1rQXMl3agSXuNu5gPeTiBGB0=
+       properties :
+        x : 156
+        y : 7
+        width : 10
+        height : 10
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Détail
+       identifier : 0x228b97ad17554d22
+       internal_properties : CAAAAAgAAAAy8jxkxTjjCjOl3hBSXKmNJ2H0ddywbZmEpocrXn/7kDYuxQk0SoTO/NtHvuk2tMQt5Nj0LfyrMJxKR1ZzCuBYVlcCvF4cfgYDY8fowCJ+OvRyQTvtcWJPkeY4D98DwIAbo3pSdbMfeGVlHFNROREEVubUi+z3ufGAPI6fRLphR2h33EAy1fEvZAOf8Zqx4t1eJnrgiTbEGEYvxqVgRVtl2GHxdnangWuu0gNQiSfSoeXrvrZf9hO6l5GU55zui5rCnYyZ2kfw8yTBN37OPd5S85zzPjQtljuAj+FdEdDIxnDytP07XhE9OqRnSdjub6qlqzZOctVNyLFjyVM4s9iEflJ1GqvcUAO9QQD90lUZYSoCW07dN5wzUtmgL8WW0fi6vsXHRp+w4hMofysmIiltR6NUt6H/TjzccgPJbQmTHN/rvbeEzA04qaU2zUz5cbZYe8hmIRmgGCPXRSFUpewzwkxXzHh6kaAVmAkn8TzxDmIgr++Ubqk=
+       properties :
+        x : 11
+        y : 30
+        width : 158
+        height : 189
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_FondTitreRDV
+       identifier : 0x228b97ad17544d22
+       internal_properties : CAAAAAgAAAAay256xyNh+4XPPwRkdeDFkS1KqNJuYfr7AOtOcBGExHM0bjd1/RUyJLKFr3EodbL36M3kBVxLXhpI9TbBsNbsunClYjybwy0FN4mof0XICS0NVIKoRdMT5M3lXYIOW6+zubvQBI2QN0ARZiXcIgFSc5fAwHsTbcyeb2cxfERPlwC5T9lWpe4B6GWqe7RoPRD0GhgT2+9rmwVbWPgdXn1Q2aNKvlhJ6HJhhQT2+HppJikcvVdArfZLwWjGrA8/AUxrQBJl/Uuf+a/1ZtXLwsgIVUHOUs63bNgS0VAq0KKNzZ4SM8qIzGmxsTzAKah9l9DM/suyvQap/PdyxR8r4pKFfRnl25T7v7QcC+x2PYdLWd05mxX2os3VFZAW8tEsBHx7OEJBexTqpKBUry9ZtFE6rexEKQ9/UaFYPTrFxbbD3k0ANF/RnB3X7syQeSA7C1hznWpsbSANUoIKbKbmwfqtEm7MrIXe
+       properties :
+        x : 6
+        width : 163
+        height : 24
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         // Procédure appelée avant chaque dessin d'un rendez-vous de champ Agenda, Planning, TimeLine
+         // Ce code est ré-exécuté pour CHAQUE affichage d'un rendez-vous 
+         procédure FI_WINDEV_VueRDV( gEvenementOuRDV est un rendezvous )
+         //EvenementOuRDV : Rendez-vous ou Evenement a dessiner
+         
+         // => SourceVersEcran
+         LIB_Détail 						= gEvenementOuRDV.Contenu
+         LIB_TitreRDV 					= gEvenementOuRDV.Titre
+         LIB_FondTitreRDV..couleurFond	= gEvenementOuRDV.CouleurFond
+         IMG_Image1..Valeur 				= gEvenementOuRDV.Image
+         IMG_Important..Visible			= (gEvenementOuRDV.Importance <> 0)
+         IMG_REPETITION..Visible			= gEvenementOuRDV.AvecRépétition
+         
+         
+         // cas ou le RDV est petit et qu'on a un pictogramme
+         si MoiMême..Hauteur <= 2*LIB_FondTitreRDV..Hauteur _et_  gEvenementOuRDV.Image<>"" ALORS
+         	// on met le libellé a coté du titre
+         	IMG_Image1..Y = LIB_TitreRDV..Y
+         	LIB_TitreRDV..X = IMG_Image1..x + IMG_Image1..Largeur
+         FIN
+      -
+        type : 15
+      -
+        type : 16
+ menu :
+  name : _Menu
+  identifier : 0x2acc86310b04310d
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x10f6cb43082b2df1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

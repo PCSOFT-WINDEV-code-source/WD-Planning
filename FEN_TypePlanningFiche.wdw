@@ -1,0 +1,461 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_TypePlanningFiche
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_TypePlanningFiche
+ identifier : 0x2885f03d63679cf0
+ internal_properties : CAAAAAgAAABuLr9qa8W1OdlS850aTssj2lB5XY5FsIFZLAv3pD+ojtP6nJ0zbxnwiMuzH85FdbN1iZN3B6BWQVMz7Y5aRfRGlIDwJeoLzYgvqEhwSt+omUO7KaHRG/L/+Zn7e8oH5/qjUck+XCytDipzDWyZ00Q0xE0sHdutoJXMbDX8SaDGdXxSW+skt/LER+gu+at5KWok8nrsCvEuAOXPHDIfUgocwZlXGJT8Izd7oDiPPJTpIodvrBk+dVaoL469/c26Uib3UtLCKoNeMjjC5JwV0DRocKF1Tme8pT1j3JDbQYWu+LUGFglTRvnMCi/qT+fjSkEJRgpV58n4fpS3mCxKXqgShIK9BJAGGAE5q047Plu44n1x1BQaRISGoa4R+CkwDFNHpBaikh/B2ti9t513hyeIbn+yjZLrjGnfRvlLEdJvtskqvnCsC1Cw17+CGqEZzJ9moVD7pZT0C1qz9tvGvWr16/bh31wt/51C5eZeqe6NC3vw7oYoeu9A5hlYTs7fdCHLU6fgA5ZIQVt1jtwIvWD1z+BMi51uIsEFSBAWGk3xSOvu6bBaO/B84QHVn+rtxtyjfRxPjALLx87oKvCmxKE4VUb/h34iwBWzGnjCnmpEzBHwRXehlnH3J15x6QbIwtUd1INuNOMYQdkjwv2G7Sw3aaNkU21ve+GMGIh/+TvA5xaCn/ybz752uCBLcIyBad7MVGNawpN+ZZTmV2TbbtpPZifwtKMx6G9olYf5bQ==
+ properties :
+  width : 504
+  height : 181
+  widthClient : 502
+  heightClient : 149
+ controls :
+  -
+    name : ARBRE_Personne
+    identifier : 0x2885f03d636b9cf0
+    internal_properties : CAAAAAgAAACLZJBpkIsaYmT9OlgUgJsMGh1UBg507s4UKATkZAsVgjGPtkBMmOhqK4+iTjIFucN+bOv9QOCDRukASGTETq4SK+O4xP/UT/0WGulMDJLegBz78oDlnoqbX+Bwog+XO98nQThGzlmkm3/rGMR9SwXdSpdsyhi8cm6U+5KUVxxjgGzRU/R1aMuz7hCdUKDfvpln2bFVZmPH2YCuBoNb/2CccCgcCt9DaB2VXkyCPLHZLYfkp8sl5A9gbLzcwu/HQWgIzvSGNoqswX10E+liuLhis/1YsrIy87M3NuJqqovpAs4vknT2/FfhZEk/VS72p6cdwReRDOlmboRmRu6B8nI34SLfF+a7iZWncG1uHxF6oU+Em6UvvctPJ8d7Zmo4CNH2+cRU3fUKAYn69DDHj0Fz5mxvgDqGz3hnP/LbQC0Ae+OH9TF10q8bqylzdcw8MjTCyvNIEQS4J7lhAdWm6ANpN0BTqOTJnE9S0Z6wTpLGPs63AwQP0+2ayTZBamrRrq6Zq2aNiwyETV03YaKk2XxC6RVSs8r1peX2j9Z2pQMfboAScefJFO6TPhFkczZCjvH6ahLw7YtwpXFfQS9LXGHMOShBAWzXUuqFu2/mz/H+ZKnIKUA+IP4U+KbHSmyyfVaLocQlNr2N2oiI+IyI4C+rBRQjREqMpoDBAse9FUmdFxkfaW3fVgViUM1CjK3CzAAVA5k51eUGTmh9ZdjvRtAtCM2D60ajNoALtTCiQph071HAfry6L3rQa4PQs7Mvum9AxDmiZD8wRN956+TWSrOHYZ6m4asbSsM6Qnu5d/cAVDSTvuDXTTKM1Fs2GgAxA+jzCvNvhyiaCFHLO9DX10Xf7sFgJwVSsUHwwTU+ZmuC7dkBhGoF0gC5rcdht4b6eBR2yaDNXbXP1j8WvnVTChqtMIO7Agqy+KhR+EsgpTI43Bxx2WV2bOCbOQQyKZINGqMItfD/rJkpkIMJ0EyVihmo2iipytbJxriVabFpP4q5HMybuOzjsoaXy2qOTN4RlnJ9EQTQWnXPsX8UTTe6f51lvZA/GlbyJkx2ZJr6smcfFCHlmQMAoGo6kfSwQKsoTKF1xFcuoYcn0w0udZpULIrtgvc9mB4NlrHXWnvkCDwWnw6Hs4sBIyb/h+9RsmQIpNMBHpnFr0YGhEDWVPz+ZGvcmV5Ju6o9EAIMkIwPMh733aI59Ohmrot8MjYJuubOTIr8HHxmeS+isXOnujjYBy/pyeXAKnwzlr54POX0lrn92JzR7gpw6DRMBNi/+Pek59Q3OW/K0YlQBD63KTeL9yHAzrVjZfA5pWq+QxcM8yg+vUPbTfUph3DQOsvNInF2HRpmhaWKhFE6wH328JQOL0aEhH10noxzpm+OB/g2kEB5dPeml+vQrVDsB8iLRJmQmIdoujvn9IUMiLLOPQNQuTSgyNGr3yRZa0FMMutnmSHU9NoB+kLoQyerJVjU+f37nVzDWIplr2QfY8BqNlby565wyYterdTTNJyx7wrfGL8=
+    properties :
+     x : 4
+     y : 5
+     width : 167
+     height : 139
+    type : 19
+    code_elements :
+     type_code : 25
+     p_codes :
+      -
+        code : |1+
+         
+         // Variables
+         RacineTV est une chaîne = <§$0000§>
+         BrancheTV est une chaine
+         
+         // Initialisation
+         arbreajoute(ARBRE_Personne,RacineTV,"GROUPE.ICO","GROUPE.ICO","0")
+         
+         // Groupes de personnes
+         i=0
+         Boucle
+         	i++
+         	HLit(GROUPES,i)
+         	si HEnDehors() alors Sortir
+         	si (HEtat()=HEtatActif) alors
+                 // Création du groupe dans le TreeView
+         		BrancheTV=SansEspace(GROUPES.LIBGROUPE)
+         		Arbreajoute(ARBRE_Personne,RacineTV+tab+BrancheTV,adefaut,adefaut,"G"+GROUPES.IDGROUPE)
+         		arbrederoule(ARBRE_Personne,RacineTV+tab+BrancheTV)
+         		// Recherche des personnes affectées à ce groupe
+         		HLitRecherche(PERSONNE,IDGROUPE,GROUPES.IDGROUPE)
+         		tantque HTrouve()
+         			arbreajoute(ARBRE_Personne,RacineTV+tab+BrancheTV+tab+SansEspace(PERSONNE.NOM),"SUIVAN5-.BMP","SUIVAN5-.BMP","P"+PERSONNE.IDPERSONNE)
+         			HLitSuivant(PERSONNE,IDGROUPE)
+         		FIN
+         	fin
+         Fin
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        code : |1+
+         // Récupération de l'ID de la branche sélectionnée
+         ID est une chaîne = arbrerecupereidentifiant(ARBRE_Personne,arbreselect(ARBRE_Personne))
+         si ID[[1]]="P"	// Personne
+         	HLitRecherche(PERSONNE,IDPERSONNE,val(ID[[2à]]))
+         	si ListeCherche(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)=-1 alors
+         		ListeAjoute(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)
+         	fin
+         FIN
+         
+        type : 31
+      -
+        code : |1-
+         
+        type : 36
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_MOINSTOUT
+    identifier : 0x2885f03d636c9cf0
+    internal_properties : CAAAAAgAAABc0gGzUyTeaLd10uhnPVZshXC+fJeQpolZJtHlvw0QIcG4MU/QTy2RjNjPGeVIeWfwLeIPpGU8ursKK2aP7EeLAjxsjeNA5vhUb7TSZRgCS5rt1qaR9uffNqZIzJ/f6IwYbCKY0QzUkEZBUNxCmE30PfaTqk32TILfPJn8znYVrHPyDxRQekPnw8ba9cyyzp9Uwv5i+r1PDQJhDoRZGZ5927vBRgg19So3W7oJJaiHW7RPVS7PLpsooWOaTCaufM4Pdk7SZkgAzoyP3soVjOJhpgycfsaCcI2/zIL6FNJwoFPmsg1hlGfIjLsAxTBRWIHtI0cRzzNK+9SJMjNuGw4sgg054+71zQscYrsaY1iX6LaH/Gp0nt3YvHfaA1CjttXLTlNaCim+5zhOF5ndJ6lkYEJmnq11TZZVzIhhS3QXK/3RA5kW1I1pzphU9VBXh5LBnY5K5b1ovTmqI619kM3OF3shW58Sham6Qn8wPC8iA3yulluPx8vK5FMuhqbIm1nPC47kRtKgAo2a+s97GYS8/RyMoG3L9Tv05H5k0/PIHhRaTfyz/KcRD03NNymmQ6XMco9ewic85UmyBeHI3GndMOrjf8dB22TL9dlHYtWXbReM2ySxBFEU38ptJJxdgtLxNKdDWiy2gVS8TRrLKJM6D0pCw6IOn2xn38OynJuJCaKpQ7uYZPkhRQy8HGjeakimvnUdCMb0ioW7W8pRkLgU/mW22haXIItNCzmHXoPsB5XRtoDhLftYHs45IZ5A7Dck5mFTiK8ZIe/IvuNyQZ0U6/tAx5/5qE/DNDNJqja1F5sv9e+sT/9Zy3N3QSC3qNPjH+JiKMiOf6JduqkK2ythrN1FKPXPUXF5CPelxLUm4hTyxQRL9Lc6TYvDz7p57pcx4LqmHRJwTyd1P8rmfaISs3Lniq04SWSytRU/JgIbOSjqckWHEy+XtVXwd/nSD3eMpUucjr/3Ly7CkuTZytwx0A==
+    properties :
+     x : 205
+     y : 76
+     width : 30
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         si ouinon(non,<§$0001§>) alors ListeSupprimeTout(LISTE_Personne)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_MOINS
+    identifier : 0x2885f03d636d9cf0
+    internal_properties : CAAAAAgAAADo9fGhHHt9ksaFIdcjAysyaSMgIK3EuxgPju3gS2LPF5Ps4WR7ytWs02R4+MZ0Ps0Om4kautMcGYcPGE4meZ0iv0D6bZNKhnMDkhZenNASnoaYLjS/8/+bMLF6AHYtig2X6j2HL85FRDTnoKqzWXXC/GQ3PU8JMOgkBvTyWzj7Z2an5+fDNwvQ0gyEWzBVVCh3/5YTm0ibeqlY36mSrotth2Xwua7JHuzU047JEtwQIuCAjwaGoMSvASbKBaqMDyr+WC9QmjukYtkbouBnJwn//luyBRKtgUOIHlATDLT0W0XO1YgTNPiApLJfodkgOWlqsneYrCi+JsBXVuPStvQrp+pe2R3xOqjJAmHLs7sciOSBPtS/ALzCna7efbyfzx1ijW6SJPYnfqjsfcdo8BUiX/Lb5O7KJ/1ytRVs0Wgx7rhPmarseFgjPzkDp0gd2LLJWYdnuZrDZ9HSS4+xzrzuVsQi0lEgrjihkidVRrBs/B2xU5MAsX1GVv3Lcaw/LMrGYuKNw8g0jFUedBgrya5mc86giwvkSVDqRufxmDTc4I59qN6/lbtrtj3V+E3UTf1boWj6ibZEbfqG1TDKmzkckLxqE6zx25y+X4ybnAAqnFzIpsNPSHr6tnPqd+vUSIuJqVgH1yh8Jer9vwbNNTjxlUC2KRdB/8cgHJX+qMQOMckqGmdkJboYCkihipbBj+ZaRtFOpMt/BBk2J7hs1+H4ho5pDXvwyJ3XBrHpq20iAoSinECKSB3C2BUdqLL/wD0+6jRa7yJfGMl79FqiYGSlry7h+qgq+dTI62pJipXKBrnqbDwvv38kUmycyR3ZbGQ80IZm/XyEh7A+LxJijH+KyExIJHpFDvsIsInz2HNP0odx9w193Q8cvzZANk5bBKQBRyUrfFHkDQCn6/RH6JGapnmSb9Lya7y1zaTULBBlLAzYBNcui9WrKo02K9bbvHGRFvnAbH8qCBDTTnamj4DhUGtbdc0=
+    properties :
+     x : 205
+     y : 111
+     width : 30
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         listesupprime(LISTE_Personne)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PLUS
+    identifier : 0x2885f03d636e9cf0
+    internal_properties : CAAAAAgAAAD5bpQJvjZKlvIV6Fw2OwxuamnkuO18VxKFXJIxamtSDiqD03LBDDLYq7TrndzzIi2b46vVC3KYUzYzr4kYSR6FAmFPFNcSfDr/d7J0CWTDCMlT2Qhcy/ObMa4e2G8tnSq5QDP8M6bnxhU32dyqVx+ivh4c29hFdFEtQTa5tHDIOVlwSkuC7mgS2nYX6vmRFddoc1PrpKmmZuYeG4ogd9R4VeCuma4hKCFdlyI9aGL2ctzCDzzIdrMbWDdyG6aLdyiufMv1TUIprfzRKBDAyrKHKa6vtwPriM1HRms3brcW/dDso1jwfB/ZZ/8klJ1dtNqYTZUHKtGCc7MBs+NbCmpXo13DrvQeL+vQH0tTBUF9b9Pj92ClU/2CaklTY9mdO/abV61Rtk9RIX6Wpwjidn6gbSS21eSoKotPg7wE3+zDKekqQ9tseRqe2NG+WDLs990wWd58af4iv/1NOTaJUEEe7e4mTQ3cfC1BxP68JCanlSIudjA4S5anCKdx/13oaqKsoTIEz0ne3KpaJiKrr8BSAGlKukVK+23hcQg2roPhGURZzCKzWAhZNLoD70NHlBkHDjoi96I6uk3Xn2UxE42dzjTeYe1kND4Z2rubMCsDDwH1l/mEvNldzDTD8RmeiJ5p8/vi8nXspzIAXJll0ZMTjgbiTj1MQoMSev80xcvk6x+mlqJzf8YqxtMOGX65dNeNJJi4lPAnN6w5rQfNcWrOac1JnnDQYKrBk3bHS+FNqw6X/19NlyEV+9dI/x4wnsOv2w99iWFxCUTD1iYEJlmM0Xt0Wzz6s56lPeGqhLyEZ4dV6jKsuy8WuF+aiDYXrn/gbJRYmcfsDIqSznbcy4rOo0btJPehrfR5atz7xybZmROeQiwq+7ZTmlLkAM5AZ2FUBeZkUtMXKLldAWQ594GKABPZVCUpH9Nny7XU6KcIeS6+fU/6eL0cqQplhYLmEzh+oyw7YbghrDsT
+    properties :
+     x : 205
+     y : 6
+     width : 30
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Récupération de l'ID de la branche sélectionnée
+         ID est une chaîne = arbrerecupereidentifiant(ARBRE_Personne,arbreselect(ARBRE_Personne))
+         selon ID[[1]]
+         	cas "0"	// Tous
+         		ListeSupprimeTout(LISTE_Personne)
+         		i=0
+         		Boucle
+         			i++
+         			HLit(PERSONNE,i)
+         			si HEnDehors() alors Sortir
+         			si (HEtat()=HEtatActif) alors ListeAjoute(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)
+         		Fin
+         	cas "G"	// Groupe
+         		HLitRecherche(PERSONNE,IDGROUPE,val(ID[[2à]]))
+         		tantque HTrouve()
+         			si ListeCherche(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)=-1 alors
+         				ListeAjoute(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)
+         			fin
+         			HLitSuivant(PERSONNE,IDGROUPE)
+         		FIN
+         	cas "P"	// Personne
+         		HLitRecherche(PERSONNE,IDPERSONNE,val(ID[[2à]]))
+         		si ListeCherche(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)=-1 alors
+         			ListeAjoute(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)
+         		fin
+         	autres cas
+         		// Non-géré
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PLUSTOUT
+    identifier : 0x2885f03d636f9cf0
+    internal_properties : CAAAAAgAAADqwyw0dJQ9tkQmoQT+V9uNbEZj67Te/tRQchpd+vLGEGUBueMkD9mn1Oc4O7PScL883z3GaCYZaAQR/Kt3Cd1Vme1zokhk7YZ77aVu81hM96VOkEOoRlYXcIrvw4BIFdULXSTVhI6IwUIlch4byubLfTg/4s/lKcxrhI/euis9Pvrgpq1xo4w1eleseJIb8IMUdoCuCeXYLzlnqacj2pnNml49Mu/c6oDglJqvvLC3Kjc2mzAUtoeQ/YjLDZwFanMZ7azzWghoBebRaEtB9AkmQ4D0HODsU3SOuVnbX5lmchvgoLOHcVfXH15U5L82ekRrH45AHNjJykE86qTsO6WJXC3gT7oVcaf5kYbOZWBQU3jsYdrO/NHRu8oq+6MY1FhQmf7KgvVR+soxPYa0xpPCflBLHl+RsqFXepVT1nEWvTY7XU6xsk+VxdAFs/8tol55nUPSBoAsfX99RmfLVMou9ZDOFSFP815TSkuwF0ih9jjOC7V7adZlnv2l6byNzrD4iliMlkV69LaOwooBgZ8Ey4QT9cmzklngbxqfZrM/Y8LyBu7POzo3Zmg0Mojq/i4hwHWzMiNoC/wLrW8SQPDAUdflMhMBHsDaWYWanE4+rb0cx0DCEzs85OBiCAxKK/owfPONVlx5V064L/AqG3cJWWSJtx+FXrgLLmk6jvJ4HUKcKbNcZxWsAYflTBgl1SyiePzUatc/B/oSYNbhEaCU7at4d5g4Z5zdm8yYS85QG68RpSS/VQ8MHz/Caj0m6icvTOlFawxDbPWGLkxw58/1Swnf1g/MZuMzYrcfk4O9mrueQaxqZuWyZBmsjFhwHOhAmF5sgnHEi0xrhnHGOWM00hLuxNO2kLELaGOp5R2O2cz+jN6PYwgcrWdlSLiiUMkQgyxSldrtabT41ss1C4FyWVZ5iuh/lfBSdBvSMfikJ7yee6Ggl9wFNqkOEc0P2pA4J+Lfhsz8Nv+x4wov5x0=
+    properties :
+     x : 205
+     y : 41
+     width : 30
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         si pas ouinon(non,<§$0002§>) alors retour
+         
+         ListeSupprimeTout(LISTE_Personne)
+         i=0
+         Boucle
+         	i++
+         	HLit(PERSONNE,i)
+         	si HEnDehors() alors Sortir
+         	si (HEtat()=HEtatActif) alors ListeAjoute(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)
+         Fin
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LISTE_Personne
+    identifier : 0x2885f03d63709cf0
+    internal_properties : CAAAAAgAAADOoARRUdznAPI7mzahPnP//dwIz+5VeRloyaq4F4YyVpkF7g0o+ts+0OjQCXDohS9XYYs2gqaFZ9CsmHbPNjf6MpUVBWzEECP62Zyz7qD6PTxWRsMzhx5gmdKotLQFTxwiRNMo+xnPKi2uv9A2fCPWg+/giLcD1GyP/VyfseKAgPqZh3SIE45T2kBTVJcl6pRDfRmehDHBqb/SNQ5f/0RsWEmh3ms0V6DXv8S3EmELMNvP+6+UkAboAPvyvMffavpZDI2lHzqQirT5c5iA22osrtqXLP9MnokeKysTq6fVttTAHzdgiJMPZVuqeIpovUt4vBCmTYdYaZ+kArCbkDFcC9gWh/x/u/YKmGoPi6VKRT5777ixJ7cFyS8peNKfSQyLCvc1hBEDCw6VC8G6nPz+zeHlrdIHLHIvjggl6u4cGr4zFPSAQfS0mV1Ut7U5bQlpDsXMhNsH1RR2feX2HN/uJL4CuPn27j5o++P2DNQEcrYqHZb1OTNETVWG/03b88TI+feU0jk3g+xxOttyJfHggf4cNVdQetELd1rh66CxgqshPj8rpbwzsbG19QLgfgLxKy/AgfQm0e5gFaj4U6vkYRInWP7qOwhu90C20ZclnTdCh9RHk9x0sMcXRORgshghwWbsGQPIGI875aMfyTZ+fLccPQhFJlkdE6rwAelRmLT7d9KmUQhq/u34g45eO70dNS2ymmUa3sdH2t6jtI+6JbvUHExIyTnQqcP4PfHuBvV6XDvJkwJmXsJdkZT+k9L6jIQfCyI0pFv11/6udX6DfZ5HByXFveSkMico8g/ppssFujtUE1esyie8lrP02p9TsXzbpkr3S0/28EeHhv7m1YAiTYD64d/yx0Wu+fN+qrMUOLJnsfoT1oSX9AMUBZabRc8c7e7rc+1w1+NAK/QFGolwbAwKmOdGaZRKFMe/Y4/6l5uhaeDa6i3x7P8Z58CZFsoWkM8lsmMFqi9WyGNukqTIg/2fekNF+lt0OGqhDz6j2gEj5hMjlBZNsdU=
+    properties :
+     x : 266
+     y : 35
+     width : 144
+     height : 110
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x2885f03d63759cf0
+    internal_properties : CAAAAAgAAACKPBjo+eCPCpleleGLC5uwlHyJqCUGutlezTKvhq2u32aetsYA5X/StlegnyBle1HMMHafArzjmU12hHutKMAtaIrWi8SlFMsGkYqheZCWLI+tG8YKaoBYgz7rhijUBh8NgSQXAoDIJ8kbhw3GbxyXQp+fpcU+mKAXAyCVI/gkV12LRCatrOtOEQUgE4LWGOX4ZJ9XcNkRIdH3u0U15xhOeO1zol+pMSrEHJ1GWSrri5iddJ/bcFBojUb3Pn2zn6mTx99I/olSmvnHx0nn9epurAhhkFPtWYCjELWKTg2XgqhPfA42byIppMdm1ay1Q7sAOwmu8rlXVpU+9Tzp/4O/WVkAc7L7hCfPFrjVdp+aWofcUSCv1Iy6I7m6HmSujFx+AiaLuOSam0dFjqdWRF1qf9j6pS5B+rOfYtL/jUXfqdmKLDYoKxJnkhOx6MpXo1CYGBgPjSF40OHxYm7cE/ZouMiwtnmg0gtnYd/Mqg50vN866mF96AXeHweUNXfeNKZqmo67kIi2tpZjBTo2PosL2lEIMRRqU3bFJdUUWtyAbxHDWciWaAMc77v9pm+G5EmJbv0OyjpwOfLgsvKfFPt5CJwvOWrQaydtinTOl/BLTDS+LlBd58iHhSVe5g+78BUOqs18swSXmXTMb2mw1QJj58SVRDhSP5ecPmOjOO9HnF5sEO92A2+jkj8TlpM8LzkGbB3YPxOLVWn2H/O/dkyWNSQxGQdSj/BStWSzZOTqwQPVUwGXHM/A3cm/eQUhv3oW0Sieaypnf5qmGWLnULGSBtTMHAW9r2yyDustkeadmS2kRT1tVJXKFWlU4EHUbvpmqKFk1GRdaI2Bhrr4mMwYVjqDMb//Ry4B9VhH2o0NCJujL5QjXnAKH65afummA3nlyOhT8rHhOZDfJW2j1rbF+KtG/+mD5DXDV7S5MgZRkF4kRkn990g8JTF3gKexQMebWdEI1r4J
+    properties :
+     x : 416
+     y : 113
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         MaFenêtre..ValeurRenvoyée = Faux
+         ferme()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Valider
+    identifier : 0x2885f03d63769cf0
+    internal_properties : CAAAAAgAAADc58xwVA3u+37SCTdQNJp+zfqd5sJ4JPV+JGAJVg0fQbymcvKYDjFb+LQdpZ5omJqKdktCgR+0KSFOtGTJV5n2Ng3WGntCqaeALI2G7EPzT1O/ZQFqMLfdJaDpUFKAmrpIVra9gpVAzDxHXnY9Szofe7MUx5ThmvhsSZ8SyIDlQ3/AkhRCNlMdQLsHOBnbctD5us9WA2hz+U3/7FZuHUoEN5he8UbvEkjNbohv7zcCNquQyiTFzLkLAvzmjPqghT2bqTBCnW1Gu7B7Ruf72RVPaR+GdC/5cFYewI+kfabMHC7WZ9iEyc6kX11AdddGNXPznLYgYSzKr4uGddS14T1+wy8fwwDh6oKEdJvYSRlJhFEwCMe01W48kWHLDFMLpZjCxlrG4VmN38n1lujnzjgAyR4ndqXjXPJeunM2DRtYC2ey59nyP7UVz7NYzRtqwU/Sx49I6nJd0+rhBWcvaWzrzGbSxt2uipNF1XtCPZFvJ2kwOLt2FcVpCrP3ypP+CcLlnP4xFEFBX/bWi6rASfy+74oOpBUhdBmch9+xgoo+ep/6M749rotqMf19fOBNbb0K2VoryLLjGuMfa8AHx7JbcGEM7kOg4VBFXUW8uYegJqRSbaIVc5LzQFolTIXLxGTbNkXLX2PJla6sG3i6ueyPK08AbODb1MpjW2+Ze4wc1qsKRgkbsEvyttI9Yk4SosHTKkNKgZtso9H0kDI1l9bdtfuWYF42LATI1B+yV1VQTvzsNRk0a5yp8jam4LoLuoRGRvb96zsuzOKqFnmgb2V9WwQf0HWAgDfM7M+15s/jIItbXsG254Q39prPKZp0gvUSiFEaDRqnt8x0OVulouiFoYC1jwacWjudLfuQccxLbwok0ymzwoAzmZ/PAfrYGg71KTKRBQkeT1y4TcATcuOQ0uBjK/bjUlO4tmgYPmUI7+23FElHfsU=
+    properties :
+     x : 416
+     y : 78
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Contrôles de saisie
+         si LISTE_Personne..vide alors
+         	Erreur(<§$0007§>)
+         	RepriseSaisie()
+         FIN
+         
+         sListeQui=""
+         j est un entier
+         pour j = 1 _à_ LISTE_Personne..occurrence
+         	sListeQui+=ExtraitChaine(LISTE_Personne[j],2)+tab
+         FIN
+         
+         MaFenêtre..ValeurRenvoyée = vrai
+         ferme()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_GROUPE
+    identifier : 0x2885f03d63789cf0
+    internal_properties : CAAAAAgAAACLul+vBhmdRlL8c1IvEC1uzgAy3sy6Xv1t5ZggCwqQ76oLCnYUUwXe9rjM5eGJ79oDsyB6F2P19MdgrHtxyLyJAg0j7ZTKPjz6aszuOWrGkQ5Z4ZosJDQUE74kAyVEbpdLvSL2FCum9vEyaXzsTDrPgiTTX96DtkBFdcrPf6nWIkgaWvd7yz0513olRyYAmfRYFHpYdU3v9hsmlQ9DhSysAW1CNdD6WxINb1fCN/q+/+InvrUKafbP4u5xruaYx1me8tbcHqU4XVb8QGCgjMj3pPddN2JNWk9JdMPJ51cljqxJp4FevXJC8kC8cx/sW7MR4kT8baD6k2l48Dp+TvVshoIumd0+4pmgqqE568VD7wOGe+NRRWkO5l5W29ANvA33FCFhpAYWawD5ahAkOqWSeJTqpgC5F94mi3Hov4jLQvxC9rw7xWt/zNN9L/oNS56rFXPAUGc9kfmtDYxgdkLdRf4HhCd3KyVMaCYItqgb/okoq3flLG476ag0qvFa112lOZzM4zLuMy+k5tJMowIUZW+ulym3nGZLVr0tQQV3A81cyzUAXWS2Z7uM2xDLKE1uvXtOjZA2j4usDRXucWHB8BRD8XsXMtl/9LUlDHl6vPw4QjRsCqjgiMbwqVo+kDcMzAvgtsDhCPIbbLrDrpaMZ1GmkIIxsSI1vH6hrdtGP42y5pzRLVwMoWyypwQaAwm7R3p6u8mXGGmg2o/STiYZsqKbMER8EmLoEqdVAVcLKy5Szjh9r4MapgBeg6ssZOMyI6aQfDD3zsgktrWD0EuVTZ0s75cQ+hvlJ7gPYE7ASzBGJPUnPs+NRuWLR/bCX/ZKZ8NcVvNT3wBlqX6WaeyrCmMDjNhpjKWz4utXqQvbQKGXg08GwR3r2i4oRmJNRAdXdv+WpQFNPyvamg4oJ9nbpOe8ejpvTEqpi6KTBpQZrQFJ9P3gJLsl5DcRVorFlwjgdNaC3/3gZTP/EljHFfyqHGUKUizXDiHBWQxAnUWGvm8=
+    properties :
+     x : 189
+     y : 62
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_FLECHE
+    identifier : 0x2885f03d63799cf0
+    internal_properties : CAAAAAgAAAAC5ZqiowgyYc8E+lGAvA/DvPpvfQQrpN2DY0WNiV7l3LiljAcY1mwUDi9pHnXT+2vDBZED6hv307hI2hwiIkOkSB1dgJiLmWmlXayzBYTrhz6IrhMhVmric2IyCqaCVOZlrbky4yhf332VYiKMT2t0CdjKcsEJC1bV285o6ZaJ26USZNRo8rRELjcN56ru2A3E/WFnYZTNO6n/rHZ7gw3Y/eW0ApdpMtNSIoCfnP/6Kk+ILeAjtgyFt6WIwUl1zS7l1Gb3DMuBrHQqyg3sxdojOoAJpvD9GtJvWDq/ghhku55N+De6jA3wSKrBjqoHCMtXcIcyQgZlot7igosXmyyBccPAKoENOnsov7FxtAtx0gBOAAVGE/78d+B6GmyUkDv7bsNJ2sb052BICsGgz3qXi6ggHpKnWRoX5SoTDa92zwk/5yXmHtOU53b2Udw7p0irVIG6XsUVKZzH+ngzwgrx18dL5QW/Zb9FlYNmoxMJcPFwzdM7kL4/CGS4lCPZBdcwV3Z81nNtd18rK1bGo4YSUSTYW4MJxbC/E83T1T05192c9T2F1PosELewWr1xceX8qZ0D0AgzimCcXt0GYNGLxJ8cZRBlH5S8uEPRPHqEjR0U89B9t9+gCiDkRvXZs1Ds2zJjcHVrGmNVNdgqcZO6RFojr9lBqiElyZcZkDlZVMbWpyvKLcYHcMzoMy/DscQOh9qO8V9Fn5u+laRk8zoe9Og9wvbQacuWq6t4t0yj01WMaFGFYByjIdLjSdN6XFdTwxbloC9haJxCfCL+EwlEvi/OGlqd1qMDUPMu62+DrKqfF8oPVTPQkBMSudA5BB38nS6gRsjO4OuaMHiYfoN09Ymawf5eq3IinJUVy1eYwkoDnQorrLGngHtahj+ixACXFqTcj0dfYfk16APsJi35Rod1zI4dmzREcfHcBGcxn6K3eREDpfMC
+    properties :
+     x : 217
+     y : 59
+     width : 30
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_SansNom1
+    identifier : 0x269386d90bd7689d
+    internal_properties : CAAAAAgAAABlSIxRgzID24yf7uRkYN7FkYf9iftsTFuF00LrHJF4/at2h0+JoCTQVzziSOnaXXW+3c0Ubhda9zN1h+DaYi7bUCHYiBlenYT50Flpv9Il6Jl3M59okD8E37ein55vtLOJKoyUUAXzEqLCi9QZiL370jLBACzjsvaeANv51zeVPSh7VGbaM3GBjCEL3wXy5EomgKpoffVV9cGaEc0kHzkKD3pxoQBiAgSEFunH9wFa7ACjCh44E1SH/JEeXmBckM0t0ovYhsFkM976D2Pz1dVAAwjXCD0KeSE15kF2dUsJg9Zdv9aLV9+hNpNnzE8SmfpEHwi2KKbq1iUkml2M9Xdt8Nc6TUu/m/yrgLAqaJackWSqoYLLSZDzT+UIKtcjimbr+8rGGqnTVgFB8UzIh6NbSsEL4m8FRCUKVgjhTQM8FI/L21tp89urFQgy2D+1oVw+1A4/AvFh3cio5oPAfU0ALPgG4bEeb6+orWIhwzS7q751UkkmOG3JSTzY+wYnktd+Icj/
+    properties :
+     x : 266
+     y : 6
+     width : 144
+     height : 23
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2885f03d637a9cff
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABx9B81T/fJ7jBOlhdY1Uab3FtqL7y50Mhk+cCJ7GVH+0LJxXjyLFBg+U0KXnxd1+lAhZthg0NL7yuBFz5eJ9r+MWWXeZpLFAxtrRVjHbPp8mucP1MHyW7VxbMMsZTDYvE=
+ actionbar : {}
+ code_elements :
+  internal_properties : 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
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure FEN_TypePlanningFiche(sDu="",sAu="",sListeQui="")
+      
+      GLOBAL
+      	i est un entier
+      	s est une chaîne
+      	nIDPersonne est un entier  
+      
+      // Personnes sélectionnées
+      si pas sListeQui~=""
+      	boucle
+      		i++
+      		s=ExtraitChaine(sListeQui,i)
+      		si s=eot alors sortir
+      		nIDPersonne=val(s)
+      		HLitRecherche(PERSONNE,IDPERSONNE,nIDPersonne)
+      		si HTrouve() alors ListeAjoute(LISTE_Personne,PERSONNE.NOM+repete(" ",100)+tab+PERSONNE.IDPERSONNE)
+      	FIN
+      fin
+      
+      
+      // Période par défaut
+      si sDu~="" alors sDu=datesys()
+      si sAu~="" alors sAu=EntierVersDate(DateVersEntier(sDu)+7)
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b24cfe41dbcb799
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Tous
+     index : 0
+   -
+     text :
+      fr-FR : Annuler toute la sélection ?
+     index : 1
+   -
+     text :
+      fr-FR : Sélectionner toutes les personnes ?
+     index : 2
+   -
+     text :
+      fr-FR : "Journée "
+     index : 3
+   -
+     text :
+      fr-FR : "Semaine "
+     index : 4
+   -
+     text :
+      fr-FR : "Mois "
+     index : 5
+   -
+     text :
+      fr-FR : "Période "
+     index : 6
+   -
+     text :
+      fr-FR : Veuillez sélectionner les personnes dont vous souhaiter afficher le planning.
+     index : 7
+   -
+     text :
+      fr-FR : Veuillez indiquer la date !
+     index : 8
+   -
+     text :
+      fr-FR : Veuillez indiquer la date de fin!
+     index : 9
+   -
+     text :
+      fr-FR : La date de fin ne peut pas être antérieure à la date de début.
+     index : 10
+   -
+     text :
+      fr-FR : Le planning ne permet d'afficher qu'une période de 3 mois à la fois.
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

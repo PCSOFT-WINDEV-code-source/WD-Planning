@@ -1,0 +1,298 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Planning
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Planning
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Planning
+    internal_properties : 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
+    configuration_id : 5179876007858021568
+    type : 1
+    generation_name : WD Planning.exe
+    version :
+     version : 14.00Ab
+     internal_generation_version : 1
+    icon_filename : .\agenda.ico
+    language : 1
+ elements :
+  identifier : 0x4ac603d70037ec38
+  elements :
+   -
+     name : FEN_LégendeListe
+     identifier : 0x3daa86155b70f8e6
+     internal_properties : CAAAAAgAAAAtKQUZppObRGlSGdyerVkskbzo+AitepJK7f6RMwiKRvJ+YNtG+iNvOubQKOgY4NA4OA==
+     physical_name : .\FEN_LegendeListe.wdw
+     type : 2
+   -
+     name : FEN_TypePlanningFiche
+     identifier : 0x3daa861012a9f8e6
+     internal_properties : CAAAAAgAAAAPC2e7iDV9rre8dy6IuGcm/6z60gBVlrWX9evkTP+fWeNtWdJc7BFd1EC6Bo5CPrIaGg==
+     physical_name : .\FEN_TypePlanningFiche.wdw
+     type : 2
+   -
+     name : FEN_TacheFiche
+     identifier : 0x3daa861407a9f8e6
+     internal_properties : CAAAAAgAAACf+/erGEXt/kdMB96YqVcWy5rCCu7joDaG3TZR9yT2MtpaSONM/CFtJBCKdj6yTkKKig==
+     physical_name : .\FEN_TacheFiche.wdw
+     type : 2
+   -
+     name : FEN_TacheImportGoogle
+     identifier : 0x4921337500008929
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2fzVkEtlmHZNDkPt3fVBIwyOOzYFHvuRR/0R87h/gaz2vXljXSXbpxnjYw==
+     physical_name : .\FEN_TacheImportGoogle.wdw
+     type : 2
+   -
+     name : FEN_TypeTacheFiche
+     identifier : 0x3daa860f488cf8e6
+     internal_properties : CAAAAAgAAACC+PouncpifdDJhF8ZPs6VAhM5MTcvrX2UQ9ZXetG7DT/3zW7LfaDqoZ0H8bEvyz2Hjw==
+     physical_name : .\FEN_TypeTacheFiche.wdw
+     type : 2
+   -
+     name : FEN_LieuFiche
+     identifier : 0x3daa86042266f8e6
+     internal_properties : CAAAAAgAAADsasTQ75ScTxYLwhlLQSRXQNNv928EuMWNangXk6h0vHi2Dp2Zr96oY9/ZJ+/hmQ/5eQ==
+     physical_name : .\FEN_LieuFiche.wdw
+     type : 2
+   -
+     name : FEN_PersonneFiche
+     identifier : 0x3daa86050923f8e6
+     internal_properties : CAAAAAgAAADIRjDs24Cos4q/di2PhmgTgJ2vNylueQhTKN/oOuGzfbt3SdJV6xJc10O9O/v1jQPNVQ==
+     physical_name : .\FEN_PersonneFiche.wdw
+     type : 2
+   -
+     name : FEN_JourFériéFiche
+     identifier : 0x3daa86032174f8e6
+     internal_properties : CAAAAAgAAAAnIw8TkM1lBi8Ez2ZQeC9OR+SC2ghtHvXwtivkPP+faYO9CZKUtNmlbKgS7rYq1soyMg==
+     physical_name : .\FEN_JourFerieFiche.wdw
+     type : 2
+   -
+     name : FEN_GroupeListe
+     identifier : 0x3daa860b2441f8e6
+     internal_properties : CAAAAAgAAAD1Ud3B/lvTjFFKASSWsEEMXX4YWII3Q33RON/wpIcPETfFPe5O8htnIh6YYCDQqBjgYA==
+     physical_name : .\FEN_GroupeListe.wdw
+     type : 2
+   -
+     name : pGestionTache
+     identifier : 0x4cc045eb0327c0d8
+     internal_properties : CAAAAAgAAAB23F5CYd5WWXxVEMvl4Pa9bjNdnTwW8gehxly3LcNJz3X560D/ASx2Pfnj3aVbJ5lj4w==
+     physical_name : .\pGestionTache.wdg
+     type : 7
+   -
+     name : REQ_ListeTacheSelonDate
+     identifier : 0x49214c560001b860
+     internal_properties : CAAAAAgAAABRrYmdKlffkFWeVYjaxgmkKVYcnKC0cIZKDE89VDXZf4GjZzQKPm879iKcZCykXEy0vA==
+     physical_name : .\REQ_ListeTacheSelonDate.WDR
+     type : 5
+   -
+     name : FEN_Principale
+     identifier : 0x3daa86133b94f8e6
+     internal_properties : CAAAAAgAAACb90NHZCGJkquQW5Lc+QuqP07mPiJvmwDdWuU571w22nqaaDMIOGUx+CSeGppWIpZ+hg==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+   -
+     name : ETAT_PLANNING
+     identifier : 0x4ed8b8750055afd3
+     internal_properties : CAAAAAgAAAB+5FZKeSaOoaRtOHN9m/4tUuWhYVbgXQmOvYVGPvKifoqwcMtnmcSOBTGrFZ1TL6Fr6w==
+     physical_name : .\ETAT_PLANNING.wde
+     type : 3
+   -
+     name : FEN_PersonneListe
+     identifier : 0x3daa86083890f8e6
+     internal_properties : CAAAAAgAAACwjug086gAGzIX3hWntsDr+IVHz6GWwui3zC9YWtFDnatXqQI9w+q0f7slkxPNtSuVnQ==
+     physical_name : .\FEN_PersonneListe.wdw
+     type : 2
+   -
+     name : FEN_LieuListe
+     identifier : 0x3daa860952c3f8e6
+     internal_properties : CAAAAAgAAAD6UCJmRQIqNQgx/LcBEnaVCruBCW/sCR7saYdARhWHYesL2VLjZYjSWcU/uXl3A/XfZw==
+     physical_name : .\FEN_LieuListe.wdw
+     type : 2
+   -
+     name : FEN_JourFériéListe
+     identifier : 0x3daa86062c20f8e6
+     internal_properties : CAAAAAgAAACPi+c7CLX9Ljc8964ICtOSDxhaqkxBW8a+EdH+WsFVq0H/x2TcbJHdVMA6hg7CvjKamg==
+     physical_name : .\FEN_JourFerieListe.wdw
+     type : 2
+   -
+     name : FEN_GroupeFiche
+     identifier : 0x3daa860741bff8e6
+     internal_properties : CAAAAAgAAACNieU5hvO75Mnyufz+EemkMazoGOiFWZKYuRKFDyzmOs4C3E/mGkMPmoZwSMg4wDCYmA==
+     physical_name : .\FEN_GroupeFiche.wdw
+     type : 2
+   -
+     name : FEN_SelectionPeriode
+     identifier : 0x4ed8b6710053d195
+     internal_properties : CAAAAAgAAAB00lxYZ9xUV34j6oEjB1Dz6N+3fzAy4AeuiZ1uukZOQrIMuHPBR3bAS/fh36dZIZdh4Q==
+     physical_name : .\FEN_SelectionPeriode.wdw
+     type : 2
+   -
+     name : FI_WINDEVVueRDV
+     identifier : 0x428b97ad017b4a64
+     internal_properties : CAAAAAgAAABs6kRQbxQcz5aLU/1+0wn9BmtVtXTW5deu2UhDMe+tS7klX3v/Aqso419Zp29hGY95+Q==
+     physical_name : .\FI_WinDevVueRDV.wdw
+     type : 8
+   -
+     name : FEN_SelectionPeriode_iCalendar
+     identifier : 0x464b3ffd00c48698
+     internal_properties : CAAAAAgAAAAdeXUplsNrdM1KUpjwt4DUdWAs3OFb+5imh9kqSKjiNsoGTEqPcfx7rpYA+Lgo0MAICA==
+     physical_name : .\FEN_SelectionPeriode_iCalendar.wdw
+     type : 2
+   -
+     name : FEN_SelectionPersonneiCalendar
+     identifier : 0x464b3dbf00abc542
+     internal_properties : CAAAAAgAAACW/P4igf62uQC9l4mDiRRb3l8V3f63kYaKfAV48TVfsUPzT+bEBMtCYdnDPcU7xzmDgw==
+     physical_name : .\FEN_SelectionPersonneiCalendar.wdw
+     type : 2
+   -
+     name : WinDevMessageBox
+     identifier : 0x464df39400669ada
+     internal_properties : CAAAAAgAAAAxDWm9ijd/sLk4Hk8Mxd7kN2ACwvGDoGOqEgi7yyVxr13j2TE2ghKR2kK8BIxEPKwUHA==
+     physical_name : .\WinDevMessageBox.WDW
+     type : 2
+   -
+     name : WinDevDialogBox
+     identifier : 0x464df394006a9c03
+     internal_properties : CAAAAAgAAAC5mxfzzPmJeo4YU87e8Pm6XY6iDOJPYtk3/4b+2X3M56uhe4ZcWkHeoCyHMBP3QKu8
+     physical_name : .\WinDevDialogBox.WDW
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  analysis : .\WD Planning.ana\WD Planning.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAAAySygPcZ4GJX0P6OaZtGImf6VeIpQpJLYsyy6IpEyeB4oR6+2AWanMnxYyL8kUO6ZLoCf7gRyLXo4A3BCx9g==
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+      // Valeurs constantes
+      CONSTANT	
+      	MODE_CREATION     = 1
+      	MODE_MODIFICATION = 2
+      FIN
+      
+      STPériode est une structure
+      	dPeriodeDAtedébut est une date
+      	dPeriodeDAtefin est une date
+      	
+      FIN
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Planning
+     identifier : 0x4ac603d70050ecb5
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Groupes
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_GroupeFiche
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_GroupeListe
+          explorer_type : element
+          type : 2
+     -
+       name : Tâches
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_TacheFiche
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_TacheImportGoogle
+          explorer_type : element
+          type : 2
+     -
+       name : Jour Férié
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_JourFériéFiche
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_JourFériéListe
+          explorer_type : element
+          type : 2
+     -
+       name : Lieu
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_LieuFiche
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_LieuListe
+          explorer_type : element
+          type : 2
+     -
+       name : Personne
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_PersonneFiche
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_PersonneListe
+          explorer_type : element
+          type : 2
+     -
+       name : ImportExport_iCalendar
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_SelectionPersonneiCalendar
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_SelectionPeriode_iCalendar
+          explorer_type : element
+          type : 2
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

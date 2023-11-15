@@ -1,0 +1,103 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pGestionTache
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1cc045e801edb544
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : bTacheSupprime
+     procedure_id : 2071732730012293292
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime une tache
+      // Syntaxe :
+      //[ <Résultat> = ] bTacheSupprime (<tacheAgenda> est RendezVous)
+      //
+      // Paramètres :
+      //	tacheAgenda (RendezVous) : Objet de type RendezVous
+      // Valeur de retour :
+      // 	booléen : // Vrai si OK, sinon Faux
+      //
+      PROCEDURE bTacheSupprime(tacheAgenda est un RendezVous)
+      
+      // Positionne
+      HLitRecherchePremier(TACHE,IDTACHE,tacheAgenda..Note)
+      dbgAssertion(HTrouve(TACHE),"Tache introuvable")
+      
+      SI HTrouve(TACHE) ALORS
+      	HSupprime(TACHE)
+      	RENVOYER Vrai
+      FIN
+      
+      RENVOYER Faux
+     type : 458752
+   -
+     name : bTacheModifie
+     procedure_id : 2071733215343644680
+     type_code : 15
+     code : |1+
+      // Résumé : Modifie une tache
+      // Syntaxe :
+      //bTacheModifie (<tacheAgenda> est RendezVous)
+      //
+      // Paramètres :
+      //	tacheAgenda (RendezVous) : Objet de type RendezVous
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE bTacheModifie(tacheAgenda est un RendezVous)
+      
+      // Variable
+      nIDPersonne est un entier
+      sRessource  est une chaine
+      
+      // Positionne
+      HLitRecherchePremier(TACHE,IDTACHE,tacheAgenda..Note)
+      
+      // Extrait l'identifiant Ressource
+      SI ChaîneOccurrence(tacheAgenda.Ressource,ESC) > 0 ALORS
+      	sRessource = ExtraitChaîne(tacheAgenda.Ressource,2,ESC)
+      	nIDPersonne = Val(sRessource[[2 A]])
+      SINON
+      	nIDPersonne = tacheAgenda.Ressource
+      FIN
+      
+      SI HTrouve(TACHE) ALORS
+      	TACHE.CONTENUTACHE = tacheAgenda.Contenu
+      	TACHE.DATEDEBUT    = tacheAgenda.DateDébut
+      	TACHE.DATEFIN      = tacheAgenda.DateFin
+      	TACHE.IDPERSONNE   = nIDPersonne
+      	TACHE.LIBTACHE     = tacheAgenda.Titre
+      	HModifie(TACHE)
+      SINON
+      	TACHE.CONTENUTACHE = tacheAgenda.Contenu
+      	TACHE.DATEDEBUT    = tacheAgenda.DateDébut
+      	TACHE.DATEFIN      = tacheAgenda.DateFin
+      	TACHE.IDPERSONNE   = nIDPersonne
+      	TACHE.LIBTACHE     = tacheAgenda.Titre
+      	HAjoute(TACHE)
+      	tacheAgenda..Note = TACHE.IDTACHE
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_ProcéduresGlobales1
+resources :
+ string_res :
+  identifier : 0x10f6cb4207fe2bce
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,249 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_PersonneFiche
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_PersonneFiche
+ identifier : 0x2885f0a67414360e
+ internal_properties : CAAAAAgAAAA6SxKakHKLwwuV+La9Lr8cy/VZgqjYUHhKrk8Dn71IpyayCQnjv+5WH6qylHLhmZL0fy6L/sTGEn8NVqa855HKen0/+asqS+m4pYma4Hl7sX2VKVMzwCKU3POFxSE92JqFMiKLC8JRbcooLooWtIZPjH1YCTMkkHG2XpGS2yN9EkKjaqtTqLXCds5oyKYFE6+x7577nPXaGDBdMKp5CuTI3lBl4WlBcY3BWCXZrkgZ9+nAQXGSmPPmimQ0H0Kd/tc1FvqsdmMAItQR3OlBIy1D3Z/UncuDMKi5dKkTCyTBMfCr8n7kAjs5TplFzKu6EtC+siYUmOcmwN2gXSKl4gZm5Xg6RAAB+CCqPtabgj8QtyIodEHWyAFxotKDeTFdBrhbwZ1Pbi1KH2WENQ3Vcn2sdKTozlwqfDdtpt3MFppVhgU/PA0YURYcf4m4iStyJk8yVncJ2uXsvRSX5luxG3njrVPIE1kog5Ngs0Cj5cGTCUKgpBp54+1I1b5xBnmP6I62BdtUde7c4c7OlGduCh1e0Ga2be4VKxSKb7PeE7TBai7Xg+gyW6mr1po9Ceur5y6Mi+rWc0KnnqNiJPYDKyRnNJJ52jIXd3/6Z/pZ+FIpyBogdFhxorH5LXXIy9YLiGm0PBy/ctmW8UBwm00dCO7rIVcGGstg41V4OMUuvrJyY8NZVETEsRSfwP2vG4JIxy/Mn4FkbcPAQROmMkMaB6pmwQndhrQfYuJQWMOop0HoWB2nst/FGsWozrpxaqrlXp+ynQ02XtTZz4y9KJkaqJfN9h/ZOYAbxu8isM1mqaBCCJ2uAzN3klNkOeV3/EeXLQ==
+ properties :
+  x : 120
+  y : 50
+  width : 291
+  height : 108
+  widthClient : 289
+  heightClient : 76
+  widthMin : -4
+  heightMin : 0
+ controls :
+  -
+    name : BTN_VALIDER
+    identifier : 0x2885f0a67417360e
+    internal_properties : CAAAAAgAAADszaaPJhKg5cUa45sdy1k/bIpdo1SFKGUgex87NcUKbKfHzB9J2Q4DprDSfvizIHebvPGb/HO4tlf6QLK1mZ6fVF8LUFd0BaaJjLNPP8d9oH3fHlR939WhqMj6JaAq45cOXLm670qtj204dQTiTs+51iqkj9kimSEVurvJdygkANdF6nCnGLLCl2UFgDFDh7vWP6y4A4t91DU8JrsWiDY41cyWGSy4uzYHfwE8z8sUPn/PM6ns2kgseneIwdXO8LvhWAUr/tGFbw+GsY9bZR3llbIxZqFkYKTgKI2Q13+Bo3wiGghBUuOEXwEnvXupRt027l9vH4M5DAD6kbMcbQcumE96wpfiNldIF5sI60A8fzp7vYA+93LvcQQGpIMXvURq23aqyXmjzlcZnHkkqhswUARPy2zM18LeJjVt98A6+/mKrhVZITNsyKRvCxYY95rm0TzK5LkzQmycOgOkLLIUZeY9rZF/GNS6eROHepwbKowH/bJf/FCfLsoBR94UJsvvW3oae38XTjHctNBt6P3Qzf2SAbPX+nVSGqCyiu6yANclZ836EEo2+tF+zrCSVD4tXBw86wU3vISgWN43Z1Zg+VwtJdbuPKYER/AYsffEVkEeSpY3F+0wy6JQ03LwRYnu1HWhIkqx9cMpDKQxd25WKc5dnc9TMaMbri6QDGHKTnTBVo313Plt8K6xmvq8lBAWdIDTOi2NACJa9AkYBVlSeSZ461lmh/fYUovflHIFTUH8NXR74Qe0bu1vXf97BzcCwzSEKwEb1wLNRtUebN4YCDaC6s16Z+B86ZFX6rSca4m6bGbs68007kXH+3ILMizom7/RIVi6rjjdMZcPAUus+7kfSMggOb8JjCeA+xNsDPq7JZITFNn+KcS9CP+SwjwqWd3DiESgaREuUCn+zEEM3RjUDTFi0u8teslp4bHn4XKvvaIZgc1c
+    properties :
+     x : 203
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Validation de la fiche
+         si SAI_Nom~="" alors
+         	erreur(<§$0003§>)
+         	RepriseSaisie(SAI_Nom)
+         FIN
+         si COMBO_Groupe<1 alors
+         	erreur(<§$0004§>)
+         	RepriseSaisie(SAI_Nom)
+         FIN
+         
+         // Transfert vers rubriques
+         EcranVersFichier()
+         
+         // Enregistrement 
+         selon ModeAppel
+           cas MODE_CREATION
+         		HAjoute(PERSONNE)
+           cas MODE_MODIFICATION
+         		HModifie(PERSONNE)			// Modification
+           autre cas
+         	Erreur(<§$0005§>+ModeAppel)
+         	retour
+         fin
+         
+         // Signale saisie validée
+         MaFenêtre..ValeurRenvoyée = PERSONNE.IDPERSONNE
+         Ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Nom
+    identifier : 0x2885f0a67418360e
+    internal_properties : CAAAAAgAAADMQiCT7jtFT9AlFExMouWZL7PrhrLjO357MX2tkvRPPU1W+FhtNNOaQ/pVcu+2GVUaHJmMw54kjFvTr/1+wpKazpDjh5lsoSmJhkhe6JtgLx9byEZgN9vMJt2/mFy+MzX0+FphABykhEy456EkMAzR8RHRnE0dZZeg7gfRNrcgkYyH4PbZkOeoSvruJZ8MHteJcD8CuPlfgNih/ouaAr4mgXQDnAKKoYrBfijHEKgsc7Wf9ySRjLyKs0h9vWnSbtIIt22rQHCdDAhc3k0Jtk9GpRrEqSRnUtNaJ4arFTw2hRRGk2tZl7d3M/EDDCSaGBxB0dYaXbmSgjn8vPDA+SdsXGPAf04hT1Uf8UalVJYJELXfBRSWTzXH8pkJ/wQC1/XkxP8eUd/Xpk0+YBmEjaCD51lT5eMUeI1VHJNFO0Il9HPMTd9zveJ3lzIoISAB9My1ApMI7jGPKjQGq9ziGcjOVoUb0BIFb7fxpndtSRjleIejPGBZ+LLnQpvLCt4I9oSogc5YwMCziupubLPjjMa1SGw4AMB29eI5oicyTQ3lZku4CxhX52dpon+PrTXREEzCdgIHVX3/STuYRKRVDxB1O1YA1OFgRjllI+FGNb+Nnr/hN17HbQWDF+KEDx3Yy3ZZ6SwmUWM9EJ9l+WezMNhZxe6j4s6hJtZWtl1CDpHs5twPCVeI46H4f0UMTnEekJ7qhyqqhf4guos3FQ6ry/8LvXK2JQsEx5gJRjCKgpWb7miYuKLJMfOE9xcr1mTf6M3uIKImPerdKba8M1U+yj+q6GTHA/AoFMj3io5GC6JcIrmBUrw4jpM5bisb3PJ6XSQRgu8HFKdof9EDAWXhgex/k/RBaHpmoMgUxvuUHkse7gm9op7uG30WdYRUW86bnYsL1K5lTlRqX38IsvUUH7yGLCm/DQvVxqBfSW98mRcCGPL6t9uz0JW0rTjFvHEXTeP7RvsO0N0zk9vR56OdQP3bueQWjqgcphD5dz6/yOEcaL9LKJRISUAFAzJURWpirNtH1byMcW79vld3NFXk01dAnzbyknLgpOPhyhDGhRWnO0r9CGKXmQJJpxC33stT4GrAkhRldXvhsLzhYm3294SPVNt6qbPMZsE13Jm9MI9dtUNd7SKqIiZDYw/CRdYX82pITl50jeSFD/e1ExOVgCROznkB5YTaBWdvBYMkMvrHTOcgysAP1XjF1NhRyrwjXZi3TdTLphdC+PEjBk0E34amUtgOHZijuY2s0oHPv1nLkMcqtpfUdRR2myA8xEKqNEqEyf3EKWIxZqjbL7DkrSC+vDwRaKicvvqGHvunyWxU55GM+GuPk8b8GctW8uNOzR5Avb6zudr4jyR2qMJuApasr+Qu4S9W/0TaLVu8DMhmnjJNXJF1MSNH1P0waw==
+    properties :
+     x : 6
+     y : 6
+     width : 177
+     height : 32
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_ANNULER
+    identifier : 0x2885f0a67419360e
+    internal_properties : CAAAAAgAAACzrknE++AoB3U1CHuoXXJ7+r/wqnOZK6+Y18KfFSnjJRMqtn0PSTYJQp6GB/I8JBtapOusnV3mQUrADx3bymVwkeSuRXEPPFTSMSrI7inS6/Ii5uOG+kaNZJypRpuNEqDe/DZjeeDCd+VmQEqvetuUJiMPsYpt0C8NSno0r73JZ6nQYL5aM24fY80uyLRIT9g37uvgADycRFoopTnx0DowEhgE5lQoRHJ/0ZCipa3Ma+AdnDG+d6y/f+tNTr80tq+16UZme0hEiVOTKw7dtBB9fCKSfYlPhJlv7SAOkKvif0fpt1pWURT1CEjS5ZzXptsKe4H1OeBd+sEP8AsqMQDQcSL4RNZZb1ijnw8uNmvkzURlCN7dRIsIxNj3wku0/gnu5VjJISoJdIiZr2cBuiZbLC9taU/sDDXQkK4ceyd0ImdMThdjfoAz4RLJGmJpdslgkBIiqRv3vhYJ+KNEnN6karC8GSjNNUVRXlQLQ/OdETykmOaLJNxLM4jT/KvWFIw6tjf/c/GqXAYfZ0iXq4Xv3ZoQIepqi2FopmYblrpFWtCjRIpNbqNB0MzjEGBlutOL66FOOlwdOKkLdhyNemHvIlQiujvyOqd17lEavBvYK34YhW3opzkyX7jC5T3jyOKEEcul7qE7D5mJD/y3z7gpc7X7xFdagyL1ina83Exm3vlh3mkMJxBMGXvn0W4XWO/GFU9Y/mBAc8xb3du8UndeoSmQ5AXt9kHWHTkH+iJctIJAvBJXwfUcXzT5kEiMtGPKHwRIvEsocabX3n6bcYtgdoFvk+nlAYIxG6/+534UX4MKymlITHGY4Lm7uBtmBXvdU9dqEO071KpJaUj5gwtq4j8VPen+2gfQ3UXotRMMUGrKZiHA+tOil4vZdFM2hiXnfaC9vE/VQ8Lvrk8bxNZT0aoa2hsehLcFTuB1KFndURMziL+11uoiZV0wd5GghUGsOdSoZBqEMom0sA==
+    properties :
+     x : 203
+     y : 40
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Ferme la fenêtre
+         MaFenêtre..ValeurRenvoyée = 0	// Signale saisie annulée
+         ferme()							// Ferme la fenêtre
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : COMBO_Groupe
+    identifier : 0x2885f0a6741a360e
+    internal_properties : CAAAAAgAAAATiG03EEtDezEm9CwWd1u+gVT4wVO4ZKxB/uPbAC1ZJ31IE3aJR1AV9jqeY36OZbnh4JGoD8qfWbP8FkoqUgE4JMgOzYxvdR0D+SkZlBM03H3u6sKgUjUgiyqs4sjxfIQn2fdXnxnYE8YCTrshYjYf/wDiDWREjpWYIBIu6Ec/Jejk7EcIy+Nzt6Q7R1Ph+y1RHTXMrkBzt55Qb9iTwb58I4RQQFs/Ga3h6GUO3qDbAoIU35TZxzlSis/B0FAoKZVUDHBRQAJxqZsPt73Nrd+emJ45ayawa61Wljlsk6ToLJpS2x8cLCtoJTCKXdhXpFBy9ojz4JddX8eydUhKVJKAQDVR1Ns5CmU5WdoC6Mhue1LWa+fW0bMJXtgNzstXd1yABC+R7w8tZ9Wj//AP7b2AEpz+zzYA8SSg1rFRmI8h9kPsWv6YBjYWoVMLgS1UsEg+10IxvHkve7voBMPfiDIiFBOd0s+tGFVOCUW7t3/L/aTCth3/6dFR3NtYsd7oLMfGxMHn5DOO9bflIoXZZj5WbnKUWeiiaoXlWn2Ego0nxj2WyFwja6RZj7BnpDBvn+AAd4bm5ovM/9lbb+4jfiPj5FqDwY7jEjXXN90Lb2/Ckvzco0pxOKFKYj9AJLgeucbH3jKEY2TuLUlLNMnOcvRcfQG3zdttL5M5eyGuCe4KN3wNmoifXyo9uLkAaaBdlmEdcossWW9EsKxC4vRZCrkzMHUaLsBWC53LG6spUID3esibJwXWh1diTj63xO+QpFb/c4GIEWHmUKuZFaxuza9Xr1kbensPxN0vuq87itWpskjl8/znr42hNXsN0woV59RPtCrKKGL7KlGi1ebKUqxAlNAckMqn/564i8XilKkLfvI9LNBvnMPocxbclSRclfz/UUmIVrj4GW+koP+tb4tlOJdX+sFPqSt0pvkJjePxze5HsIOB3gS1ZDoRXCYtYse0FLRPSzr7E1CK/X/YEUypN8KyUoV00kJtcFrLw90Zx9oTS/fgIDefHZcnDR7T1CUTSdqG3++1v/zQUQjrgoob6Z1DLE0VZlRcovAwhmRa7bdiAoUvZRrlCqDiRbkEE8wtPW9yIDOqGAviiz2mxvbA+cOuXShjjk9+2a0zu73Lfk/BzKi4x9e4q2YgO6Z8dqFdRQiJMY3eCvKLFgoMdpB1Hg6TgT5U9P2RDU4mNSEJXlRQ+gUZ/0yTfApp+W4IVFsJkF/B2EXEtZKJsPsUPer+YRdwxbS1Q0zT2t6p6wP33GXPz1TJWjaVAdL3pYS1BnRuWIHaVEjF1uSvp1bHKcIYZGmjf1eFG5utPYEoxhIYb8RpKqfh/Q9pUtVexVNUrASmaOYGk1Mi8F0aw6Ho3kbAc5A3hkgdBktTU3Z0o71gl9kuac8gj70GT8n9KhEfktbJPAwuv01MSuCEfIxCU45DnUnlos+6R92UXXAs8bXLSFLFVyk5pc9JhT9sea/gjDmJtJQjGEuN1192wvrkJD6W1isvHsjwqc4dDELIZvnZ0UY1DNbeB4XFjTZthwOgRZi52N/Td98O4g7zwUGsEQylY095VSoyzqBftZt7csc8gNQVufJBuFLdWAVOpBzSl09SglNWZ78XhUGcd2dTRo+qRk29irPM/dK8U7Ge2inRBEnrwOH+/Sx35xHTK5XjQSipDMq8+5v7boZUAjmS1NYQaoV7JS3+wJCaoZsH3Wo7tEOuGOEB6YREPM2+oXlC9511c+RTGUQySeRehEjEzN5tsaO7SYFwfUB3KhK3oVCBKs0zlw16YpfLJFezE5kcFAQZme2Pm0FUCNIlREfMLVljdRxJ8vWpg2qUhFMnLIqZRrFs3gg00+0W2V0gmGsgXl7cr2ZgMKsi0wxtKLyQ9Nocg1FFQ+Dr
+    properties :
+     x : 6
+     y : 40
+     width : 177
+     height : 32
+    dropdown :
+     internal_properties : CAAAAAgAAAD2nLTuW9G62Ii4f6iYYwr5xVL+aRxRqYxUpR1JOd1tLDD9KxRWYKGCirirXflDrpGRRmd7IQVHtrapAYSs3PFwZ8E5hf1NZY8AmE0CNfKoKTpZM683GyQ2uc60btAZACaLmcaoFaoX119wzPMcdaWqNq7MSCKeyRFZbSHooQFERosy5tVfHVn8dt/BdL7T5o0b1Ed66c8z2CL4HCkDl8mJZTyY3CzHy0Gd6Aqeiyx0Vevfo1/F8ik0dluIgbb8cxJUqcrvPYseFSnSfgo8U2EG+oxQ92McE0WtgP1tKXlkeutP4+3PaaAnhIMteYBNpEz1X4MpwDJeptDH8vl8DKGyJX0PNIc2EC6JxcBtE3PtqyBz9TQs9auCiugoB67mRHuNMNKeHzE4TrrfvPJtzdSklQU79FVNf06JG0sOES7TS9eZJw8gNrii5tU1Ezyk24jZN8XJRZsGrOiWcZCsQjDvG+JFJ8SmV+BiNg4BQOoN1+1PIQAODreBlzTMP2nHeIKNEYM1ym19iTDtza765xIGSh4FJGomfKl4NtxGtm8z7YxN3S3Ld2+dR7mirgHdq69nMU9h8B3p3MTc0GGdU7Qo97mRQl0EiiOakT76nLYUbUYEyAMqiRMXX8gvDYYnFO+B4HLHIpJB8CBwQEsG+vgM0CXLgalHTaZYkfCN8ZvLz8E4uIPgn5hMXqBiZekqUnO24W8z/RAD64UHCT9LzZX8nVAOyiowKsN5ZNYHG5WtjbTyXIzwoAIs4aNrF3PrCjJK0D3Vgx9JaqlWuGNKUymBBVNJB23Tr3xRiRwL4Fwds4J3wJe+84ncbrAR9EVSdvnv8+yigwGfZAOTtpgxk/QQRE8z8rU9BGZ5SPS7u8fvT4NH
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+        type : 35
+      -
+        internal_properties : CAAAAAgAAAD3wZYdsWrgsvuAG+6YI0BZP6HEEPjRI6eT/u/EJLHnh0Wobgxr9Mmh7C+fkLSCBS7jHnJ8AHiQQlgHTnMirkwuh+8SYT9iXs7uaNhyWKCmdAVHlkks+SxNmuq7wsEnlb7/c20fnGtatrgay5A=
+        code : |1+
+         // Si on est sur le champ nouveau, on lui propose de créer un nouveau groupe
+         si moimeme=-1 alors
+         	// Création nouveau Groupe
+         	nGroupeCrée est un entier = ouvre(FEN_GroupeFiche,MODE_CREATION)
+         	
+         	si nGroupeCrée <> 0 alors
+         		// Ré-Initialisation de la combo auto alimentée
+         		ListeAffiche(COMBO_Groupe)
+         		COMBO_Groupe = nGroupeCrée
+         	sinon
+         		// Si il n'a pas crée de groupe, on le positionne par defaut sur le 1er (indice 1 étant <Nouveau>)
+         		ListeSelectPlus(COMBO_Groupe,2)
+         	FIN
+         FIN
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2885f0a6741b361e
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAB3ig3bHeV7nOpkzOVm7+xJUkl4PaqVbARMlTiF/KeDdW8RCTwcXlKcR/sMGMaja6cJzkICrKKqUmhOmpNpHJskOTH5w9w1YsYv7+tVD6H7gJlCVU0Z/5j/MyH6g6bRXO8=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABbB5S8Sp7hTAmr2m1hTD+0ejKQjo8rz8gvdHJTwawENC9LtqKLdg3Htl2lHzR6tm+oADHUh+Mkd3FiOXhkPWALrEYRKmoa0a4FIARzkuWxfGL27CayzTZ2FMkuzSfNtEy+EH6aGVNkeC2I+L6nafpfn5cbVKztkX0U8N1L3WZI/F7EIyy/lqgWYv4c6jA6BaKQrN85uPdinhQNgY2exzVddPngfYpb5Uk6/knKlucb2RqHza4hv41cxLre+AQSJsmsRzeP0qUNBAbIRnoKRtlqCH5rysczz5ovQjgE7eZPo5koIcFsWyym7bLkepbB+JYgYWVe97SOmxMqkBMyQyirskbpuKjNldEUIBHiPCnhT6KswkQo1B39FVdTVFEMmkN4DBSGk3M9vXLXC7R/dv4Q/DtXrcbMPgY0f3J+u7RpK7ZkzNFbUCsdv27gJ2RCTivQrOr1S+ZZhVe4p/w=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      Procedure FEN_PersonneFiche(ModeAppel=MODE_CREATION)
+      
+      // Initialisation de la valeur de retour
+      MaFenêtre..ValeurRenvoyée = 0
+   -
+     code : |1-
+      // Selon le mode d'appel on réinitialise ou on remplit
+      SELON ModeAppel
+      	CAS MODE_CREATION
+      		RAZ()		   // Initialise les champs
+      		HRAZ(PERSONNE) // Initialise les rubriques
+      	CAS MODE_MODIFICATION
+      		FichierVersEcran()
+      	AUTRE CAS
+      		Erreur(<§$0000§>+ModeAppel)
+      		Ferme()
+      FIN
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b24cfe325ecb247
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : "Mode d'appel de fenêtre incorrect: "
+     index : 0
+   -
+     text :
+      fr-FR : <Inconnu>
+     index : 1
+   -
+     text :
+      fr-FR : <Nouveau>
+     index : 2
+   -
+     text :
+      fr-FR : Veuillez indiquer le nom de la personne.
+     index : 3
+   -
+     text :
+      fr-FR : Veuillez indiquer le groupe auquel appartient la personne.
+     index : 4
+   -
+     text :
+      fr-FR : "Mode incorrect: "
+     index : 5
+   -
+     text :
+      fr-FR : Ce nom a déjà été utilisé !
+     index : 6
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

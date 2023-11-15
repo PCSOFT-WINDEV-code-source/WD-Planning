@@ -1,0 +1,336 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_TypeTacheFiche
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_TypeTacheFiche
+ identifier : 0x2885f02a6086519e
+ internal_properties : CAAAAAgAAADruDHYKXaV13Fm6nNqI3VRzfDEf301BpgNr6fUFjNKCJbfakpEafMW6ilPj8mSUIczlg8Fcz/TuHQyo9mFrL95wo0Qpv8RQgFUPijJ0fouLcgOmn1P/IEmBn4P4LsRd86pU1MeX8V0wpuTQlpNfotC/teYSYUMIr31aoR8gMgbBTDzmPDq/MvKl/JAf7hLidKXGuxOKpOSWWOJSQzYaTtr5wsXxokrfYXoEj4UIyHcTovxWQsaPVGhe6h2t2ipgnUMbJI6uh5xo/Qlf07KzbgE2DSoQOHFjgyUtllha4Hppmoi5ozMYowsycELhY3RLF6DOQlHOmoZWSm/pgeE2YvufB3ny36qpLXsAdv0EH+wZ56yN3IfF2IIZjBiY+3DTRYv+tf/8U3kz/rmWgB2yNjw2eWC8uyo4d7DfYGxM85uhAm0h80FAv/ZCmMNDzU9szkaPCX8YN26zB3OUkHrhnoZAu8acY9Kve5wLYk8HTr8J6MQvosjC4UsOEOSpJC9dPLt+Drb3bPOoA0oHiuSdRxZgLZXtkxzyKB7u1rls4k8CoUy5TXCLo7i/StA2YP/MSMEFrv8CJDTH7wqOUYolPOv6cjZa3mV1AdBaMZHs+VnIgkGtvgDoeKbYaU7uNG5+LhGHArjVf/Vz+mdG4zsPJee0NcWTftLwP5bqPoznAwESiwlXgutsgr6E8/X5e23gC5rml+0JNvnRHJ1bPe3KGwPuO9tiqLFf9vrUB88kj9jO4Qc+StLhkoUV0oma8pabu4Eb+LFLzjkiQvkI/722OGTeqSH4QKH6msKd/9/QRVnTuxr/XDjbrS0b4NzlHTc2Qf+yUZx
+ properties :
+  x : 120
+  y : 50
+  width : 350
+  height : 110
+  widthClient : 348
+  heightClient : 78
+  widthMin : -4
+  heightMin : 0
+ controls :
+  -
+    name : BTN_VALIDER
+    identifier : 0x2885f02a6089519e
+    internal_properties : CAAAAAgAAABhhlkAj/O13R1bttu2iTiDFqC1Wza/ewtUKDKC3ni8WKzajrpVuNq5HtArVQwQN2wlKkx4jEgNtT1LTQX2YjP/x0XbOVYP0wcauLpJsbNDijSrYNyHR1BovknquSJyLAx3Y/rjsLiOOSUTP8nhBFUiamQVFq5a2XYMjElD9DbeRGy1sT1A7q50v1nZz8kVez8/styiYKIOh4GB0CigjvKur1dVAlmO9M3aMkMiTyDNiwFAjzTedMQRvBZhn6VuYUPs91aBI+yJwITMPvZD1rS1b0EsBB8XT+KHnRhgtajVrh69Jt81lLyuE7NhXm7LT4tM/gD3bj23/cTLahGh4nkoJiEvDB8vxy9/F5FAxk654biEZr74EgMy25n8I5VyCjENEBtt5SRGQirMFZDoH7rvxM8C4Ap7OVxUgt4rxV1Dl+4XsII63dd2LYPVk4BgNdKugPbRdslpoqjE9x4gTHpR6whJE8Hi7WEguZv4vJsT6/PRkmIO4sJ57b88tYRYDbW7tx0Bkc7e99dXCd4NWb3x2oat9ZapdMlufRotDoyAaGyp9RTSD+9LRCv4xEdqV7+ZUm7ve245LF28Ebb56pCkn7Mwjzo26ZaUKFHEj2CZE715MoD7/LbOs799gOhM1pe/E61bakDEf1/evEDvi3nu47Yj/rlREWkbvJnkv6CCu9RSgUF/WDoaK2D3tx8DyAzC+vBcI+w4OSgBb6I6yV5oxjn0DRiZ+YjI1eE5/g+xFnKqDli1nTnbOeXY+Zq+PwnW4e8Anrsj0QkGZRBq26NBCdsWw8PErTnWu4TQr0xfvndh80xpxyOuCvBUzbi7MLDHwwx+R1rMNGO04BPTq2zI1DlxEyCnjIDnIdfs4TuuXr3PjrDCmsVJq4ZOSvhON/WM7zQvmx4HOEG/syQv/EY87/kTqYocdMcT5rnNWoDSQ+/107JeVua6J2jg
+    properties :
+     x : 262
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Validation de la fiche
+         si SAI_LibelleType~="" alors
+         	erreur(<§$0000§>)
+         	RepriseSaisie(SAI_LibelleType)
+         FIN
+         
+         si SAI_CouleurType=0 alors
+         	erreur(<§$0001§>)
+         	ExecuteTraitement(BTN_CHOIXCOULEUR,TRTclic)
+         	RepriseSaisie()
+         FIN
+         
+         // Transfert champs vers rubriques
+         EcranVersFichier()				
+         
+         // Enregistrement 
+         selon ModeAppel
+           cas MODE_CREATION
+         	// Adjonction de la fiche
+         	HAjoute(TYPE)
+           cas MODE_MODIFICATION
+         	// Modification
+         	HModifie(TYPE)			
+           autre cas
+         	Erreur(<§$0002§>+ModeAppel)
+         	retour
+         fin
+         
+         // Il y a eu des modifications, on renvoi le llibelléMaFenêtre..ValeurRenvoyée = TYPE.IDTYPE
+         Ferme()			
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ANNULER
+    identifier : 0x2885f02a608a519e
+    internal_properties : CAAAAAgAAABHsVYLItEsEw50EdjT1HH+p/KhscUIeKr2od4dkUgmxGhY9Us0t6sirjSIr60a2kiEQNCUdDF/DeOrAeCY5LncxACp1F/XLCChdZfpnUsqWclOvwHbJmmOQ0dBnFwOzlzn6HzuZRU7SAEwan+TYbTeViLheEED2gNzSQaqY/WjWuZPugIbJYrZKq0xJa81KKFDXBqGcSQ1AZWUciouNqBpCxHSjwTKCtFlbHgDK10cwAN08x4SSmEwB0SLN4fQR5myf0iNyMjkRgAfBmxpGBvs1njnYM+HR47GGs2lib+rcIEVbsnI5g66puD1lTnZKndLWeUDJfhd1y2R/YzyIv1OsJ2wfEsGGja9PpdgTfwJA7JJ0rzCe6FoieliyzKWavfSY4DiAXWLukUJCV84j/EQJDPckBdHbVRGlR/VaixwlT/x6pzKRcXGcIdiA05h+lTODTk+LHQ20VBHn2Lg6wdIQKMv0e5/bzCzMh0k/ixbbMpf1OZEQCyp7gfpZarJ98r60Seda8FeNicmSBz8zoTvVwWAPTVSAM/M5KSYqe2lQWH2cFS3b3j8eNdkc4ZrwL8NrI+Mz4A1UH1f/LIuIYzL1lm6NW4aDivV5W8BuUPnTDKcA7R4ewTCBy4xo9HVdb5ekb5MvmPlVtCaIijY3DANdq/8yuRdeGsnTkzoRfPljH0SfLpuo/9UTRE4CdtEWd+QAqz6aHJxO4B0gXDSjoqslxjLqnqXOX3238NzWtOjyfOEUCWLBwUBLFeNTTgvhMZCPGhLJQJ3iPwMHGhm9Qr9MJlyvL5zdxkpMZRlzAak79xc9UGXEyQWrMkPddvNMNZekbgz1AWP4toaXzvHb649UVE1BuVKtZNaRxa3hTWo94aV/PNJYbiZeBI6pCxeBtPGIL1OPlXyyMOHgYTpRGlTZq4HDjX7MrPd/Qs/z98gy1WcCp+JwkqCOStKSJM4Uf0qoQ4aGvAstNPQDpg8
+    properties :
+     x : 262
+     y : 42
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Ferme la fenêtre
+         MaFenêtre..ValeurRenvoyée = 0 // Aucune modification
+         ferme()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_CléeUnique
+    identifier : 0x2885f02a608b519e
+    internal_properties : CAAAAAgAAAA1ftvjzQmR76r+5XT22h2fZ+baQalvaGpbAEyLYLaqtnlSDsjFGOdkey95I+S/BxiXn1wxx+zCM8QQjz/o4c70f5cFxuTMKj5gf18w3B3QhsVK8j8wuC6xlcbHDrZx1rWpF3FzaxH585JyyJQzftXnclyunVmpxksFmY+GMCRIEDK5Jx7nNqF+Lw+7zqmwXC8+i4jIjOxP9nj2bqv/glmQEjw0WwDcSFFSifi6VUrbsL2tXS5CKXOaCEDIDCwsET/nYiYMI7uAd6AoEoNbjkwAQ0sm1MpEluSYHjdX4nninlOiUsGq8fReeHFbu2d8qKs7Nit6BJn38LbSwf0yWQbbYiLf4+03Q1JcRAIlAOfh42nHMkWwBvUqQ9Yjqh2LUoOkRplhrl0oUqhD10CgKOwJ4Of0VxlYpIxtLPpdDxSMort/fUxvSbkQe+WvroDstx8+cPoUSQyedhg4rT2uAYmR5DL7bz32mWZ+Szb9FArBPzUrV6quKjgHaYnzhn61WMu7Mo8pt5ODIQSBNkMpM/GIYRhRr90JnCkLSFrJfW7mXPEikkjQtnQ3yr0jsYTn/K3hHanRYJ2fmuo4Snn9pvLdZ0hr2TV3NeT3Kcc+/S5EnfYhDe3UzdbJdEQs65FOXjbJBpG0hBIRSzC3Nyo+aK1fbD4r+f7f7lQh4OAf7qACfrW306IV3JPkom2t0Zn5l9kPX9NlGbGZzDFhvRRA8RSUwgteOQpePI9bANSX3Pvx4VWjwnwqqCTSQBxGznW5R6ZozfybYJmVdvVsRuTnS/yK0idUTWwU/41EMw5KWlcA1CWTP66OEV8z/Me0JskHVPVrQz2jiy65HK7OuTWR2GbQiz9RRtQbvwDFVWjXQbLLIRWI/4SzSrAC2u+8dHbBPJTHk9mP1m+LThBQa5slj01osy8krZ6W7kPgm1vpEujGjHn/WImPJW2wAhYSTk1p5F3SEkwLA66gWWDqLLrq3iOQA3z98nANLjsPXSBK3a1nHxyYLq+uNmUpZxZmIrZboU0I3BRCEkVxpOQ/w8Gl6uRZT4emJXYnyLjUxyIvMIx41J1Q9Ga41GuyhsydJWDUIz87uvMUrZc89UTysV1JHTxH+hQP9LRM1k2dVBBVGsCAMqwgmXrUuIN97DRuUWFFhxZ2emriAXHAm99pP0aYtF8qHA8acs/bXnVNY5vlVNsYN4BjC1rNPx9RNbF0aBQK4NKJBEKIt1QA7hTSzGfysB09JTyaXDGwSUm6OWjO3u1j/YS3BesnT7wD1anIxdHJGTf8hlF+TepJ3DqsCmsplp+CtUh/NQLPjX439OipfwJAMwp/9zIG0JWtH5zT0j/nNk1NH5SVzy6vNU9kwEE8qy/vZ9Q0BjLpTUimNVoPnf4i3Pmv/JHK0Q==
+    properties :
+     x : 6
+     y : 96
+     width : 157
+     height : 21
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_LibelleType
+    identifier : 0x2885f02a608c519e
+    internal_properties : CAAAAAgAAAA118gKwwLQ1e/fYoqoHU6MAtEHjDlQbe2zWaveNKFp9aa2bGkw6GPQp0eiEpqjrd3CIdbDm6PTLKC1hBJNW5eNbLjAiEZL0bjd9Q7X8i7jeAF8goTp1/UAPF1uTJQ5QWf6H+0I+dhBTuVW54K9ktcjsmh4VutvZ9rmjprtR4ru1jhMBGk1vtgVafN8CdoGOuOsiJb2xvNlzFHFE6/EjOILlJ6M1hyJalzSbM40rSAdygk/8PhkKMVT0jLC1r0ehs+tdATPxTQeFVnHHtsfhBrJs+gl5yMoM8+B5Tohthwmirvcjt3ibOdeJKnXn8dy8WP9XC/VKaCSx57zeB7LpnlsmwGpJyP9Gg3kGYWyoeMAkDjTV/SQ1pSCncWDakqtWiPncfankJPcChR27ZNPP7+vi2PzngtO9O7vcKin551iJNAGEaa4xcwj1YRBbP7jR1gUsVq+7wjCSD0h2/2m0TIUbcmyCjc8VQdUO7aohlXf0P+2jWEr1/S1QHESvLhfUQEaPzbPZtRM+QwcwYovOmqTatpa7JKBsuR6/z+kU+R3ti1LvOB0smnew4sRNrhhcKQDJmyPYyeTbb03RMGvDnTpe5l+iLqbEjh7ky6aZAKU6mVDK388gOaPQ2gKTF1iu8SQPcp3dfiPOrKdGvSu6zE9Eu956/Digj9i3Ufiwnpi93fCR5WwGpum9I8dlNvv75oYMXyPyITY73Y1DoH0YBTCH3IrEyzeBjoiiEQP84bD2yv6GsS0nkdrmsYUqOUpkbLiheQJoGFIJnQXLnumcJrpHzzKKsp6VIzWFlsf7JiGsrAodLTCF2Qcw73UKOuZStcK/ewakcfOLEMp29Kcrb3OqJIq7HkGTEmq8qckywiUJL+J5H1XlR+TRIuBRrVnqK2oeCieXyDJV/57lHlQf7JsGmueyEwfpQSE/+VnjVIqEuMwqnRy3YHaVikNLw3klgp4Q8qYZ/OlzhLoqpMUTbRT7WXqNNZ2ccP/W2MN2mFtpuxsGyF+Fh89SQS7ZZawTe3Wm3cX/RHwGgrltaUmePkZl7qEZ17QCBdwuGl5cAjZioDzOwOZKIx7RX9XDpYjE7sz7hooTsM8QUM7ONt4nJBqQ8EaG4dBTMLTvZIk5x+X1l2W8ATy3HHL19Pmum9AkNgD/h3LFODXEVBDN90aEjHwiRgK02ZPImfHret9vtW9Fe+FcPpXSJvS378LXMGDTodkeI56R8M/ex3g0G+JQao+Yn9/iTSr4MaBoVvbaIeVNZ8w/1rza+pQEbgj73y16+L4xLRxeUIoUF3IBGmHXVFVxfd75/7fkW4jvSwzsZbvJ9ElBDvTwhYagHtAM7WcPVDOVONGSltWEfpW8xqfwa/NnaV+cn5WGxvIUOf6DrzFhCJ8yeyox6GeESs2jAGnWij4hUjAwPqxIsjjhG0ztk2f9HXBroo=
+    properties :
+     x : 6
+     y : 6
+     width : 250
+     height : 30
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_CHOIXCOULEUR
+    identifier : 0x2885f02a608d519e
+    internal_properties : CAAAAAgAAABJkuRAS6fPiGdwfYUwxNtR+OJKhngas6RsXhhmaW1t2zPazmzrUt7VjDZSKp06BpcxzPjlg/mMvabTpVrVzETL229Tc/Su17ctPNBbeC3PU3wUeuQk1FFWrwOHbZADyrIHdykN/zr+Yw1XWC0kiUY8+uBIZhB1GeUx0lfiwGukeOfTXN9NF/G9Kd2mcHoxHQjXFYoeuVFoM84o7elTD4t0/fDUOE7sSXTYlSYvC3dBjYcu8pTwSKTxSEcsGIgSe9To9XrOZGFMfXvy4RII3rXa0ImULZGnxd2Tf5mb4m9mDtKbgFopjTmDHsOpyYh92fZjdd06E1pBUeGSjzN/bcaUlE4rZLCXfNy4hj4ul0Y4OXu7dOxveVUnXrRUPExsNx+dNmJeLQSLd5M5r12QSzwtK69vvCHccW7uJeX/uDJrEF9Il9iJakUUT8jo1L1pq17tXz5BolQfWU50PYGz5K+V7bM85BjxxRoV06gDpaAA/Mzidq0dTNFZOmjC6p8obm/08AghvIUqs22EFBnUiSrRclU0M0/oJHll0Mcn2eHJjeEDY//y0WjdSKQ37MdL/grPfgzlgu1WcsUKzKLiddXwS6p5ZY+Fq3j019MRWORF00+vC4pHmiQnZsaExzjILn0WUntBr9n5mggM62kl1QPPYppuaApFfdNupLvum6uoPiVvFd6lu9BOoFWu4rZaSuMZjBXO1JlJqF8kbyzfsI3sUWVl1u4k+gMuAAUy0mCKbq0W/J+KSwd7BuAwMaOV3RfYoraecS3m4NV469qNs4xK8RR7eB/1GiIS6Ua5tHkJyoRMTZPMge5P7Kg+/Tt5jVSG1NU6jN298+ktf1peAxj4NTbT7iO9BcxVmjrnjh5Eg4zVCbfagr5iSbPVwq3+/nRiRdWtawAXvrj2WQwTgALQrHBj+6aRw35bK4e4K7ArSJ1fRViA6W0s9ID//cEP8u1s0NHyUXkHXLY2W8dF96uJIlT0bN93B/giGyZnn4g9+jylO3tdChyrnw/Wq3cM/JvqGMNv1mgxnkEHdDLP3UpczQ==
+    properties :
+     x : 190
+     y : 42
+     width : 30
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Appel du sélecteur de couleur Windows
+         nCouleur est un entier = SAI_LibelleType..couleurfond
+         si SelectCouleur(nCouleur) alors
+         	SAI_CouleurType = nCouleur
+         	SAI_LibelleType..couleurfond=SAI_CouleurType
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_CouleurLibelle
+    identifier : 0x2885f02a608e519e
+    internal_properties : CAAAAAgAAAB1hApxXLORQHgd1JMKm+d8NMRcxJ301b1T+33/NN2KTvLyZFptMQOE8IKAF3U53koJjQfjgjZvQoi1y5H41yOT24nWJ+N2eTqVSmWmFjJsCoQgRTAUdl43cI/QMqWyDHtvwMsexLjVnmZ0W6x1vv9E0tmWEatnJ/BPi5MLFLccqZ901saPFrIScszgNhUnCLkFbfp25q8WPxInk14lcTMqgdFUzL5pQjlT8cS1lXXLoZ/4USwfDDcX5HwtSxu19eIxhrNGkD4Nt+s5kxRu27vhmSjp5HO8FOUQvm4SMI968OH5ogAptTk2szAh+K/xfiRPBMy0f22ZWjbRmU+UXOco9wO/OCvFIgyMgBQn0Jqe8S74Dwxrh1/gbifmgt0XwpAtS38Y7J4MXEz4sH0ePI0+PS2dowaDp9pVou4RQxTUAXTdjW5lmFAzdgpjlWbZYASX3LCsCRNQdndzY4QU9Pm26Fx/UYfsBwd9gZoK9TnLgLd2OoGgNi7b3QFRFyLkbM9ShmfJ06sSi0dHE0wvtFu/5YeolugEwY/zYoRxTUFD9o3TcEGtqpYyF1BZJUuq67NqDeOlJDRbWDUTDX2VANnlYMMdwsxZo3yuImFQn43goOK+IdfHwAhnXP8L+983kJF1/fjLxiEUW9169uUDy9YyYfXd2Adwcq/STDHitfnsJj1mwCFzNz2VU/QHCddRmu0WV931kI75h0+Ko6jmmT18VtvcOX0St8xLPuD/RbHgunzzqX5GwlDrtDsZCBgKJKMS73vfCpDYSmaJ4B9vVns/9XxOc4mX3n4KJdm+k9oOIky3Z/j7IsA9FJDI28qU8s0eYn6eH+x++GD0wBONZZyrzBGlJ38io9mPd/RWH3XiWdCgzwRXMcc6ABVQ/aaHn11OyTUUzg0ptaVoXkeCq/7MQw40r0eRU8rqr5otQkqr7QIXB/LWX5kX9n+JNCx9pZgSjzwxe9wR28mawr4BuSDzdzeD+7lR1sVrDBpnFUoglazte86M3Me8zBo07LZ46b853e7HHd8Al6UYf8RjNzNCAeLgl2VcpgGKiPx/07Nb/j+aqDQFjbU4qdJKcv3jrTnyseZ2YqXoB5d4Xw11VVcPEOvWTOvaMINGL5fXsgAiWB05TYmAUa65Gc2pETqEBd8jT6VXK3jbilanmMAPnLD7fQsdcyLO1breBfGnGOfvtvTtbITLM5P81gqt2d5Op2pT8rC3Zq4QjxG7WJJjGKLuFTN2bk6DxCNsP0fLEC182o1OayhLwflFZMkcyZQ7hTKx7SzcdaDkv5WX4tChCtF6p/GtSOBpUEwQL99dyAeuE9PvDqp+S73uqDKVEscqtEPE8tUveLNxGBSaeG0XYz9ydQb7RMkl22eT07xv1sS8ANE=
+    properties :
+     x : 6
+     y : 124
+     width : 157
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_CouleurType
+    identifier : 0x2885f02a608f519e
+    internal_properties : CAAAAAgAAAAJQKH9joKLh8DtuUp0M5VyHlsF9+6l/ABaTLSoQipQH4P+Dg3jXyQIcEY2Bd+i0QKdGL/s6n/fYZWcKN7qgi4pow0e5eD+r7MFzr6xoVTf1kgCamkLvauhNZawAILG2P3J9MsgWBSUfcT8prpB+QrAaOyrnQDpiVbv+lR81d1VY8h3MGp/MUqsIE1Tw4js0OgQiJo7P1OxQMVxgb+NFvyIsf0iZbGZ4ISFGZAt8rPdHxd1cDt7/URNG5cfLSM3fCjkxVR5uY+YUEu345iNj4f4dVRovUvB0+Y0YFxCwR9dX4Wv5aEkqMJJL+AL97wiqTNoo8NSKSc/z7SOL42K8fmuiKxc4FA/RCCqKhqYnWpFvoOtuk/CpPNmaai2GyYBFji6dKpXmuPIgFn8hoxrCY1WteOmDdS+8OHW5TxSKF+RxSHoOT2f0+oXLDNRNkZonhJyhCLZ9SmmHnXPgiuM3A/Af5yxVQVxHu0wlkcZMXYLbNr8J0m7AxhHbSsyYl927C5SnIGHo1RMK4erx4nOzs8k1KaO6MGyoRgASNmAorH00pqH60EeLD9RjSGV7U6XUpOcX2cbMyOOdAaK21tmFtUZhFeq9hM05CAm4fKs9h6rB7HnckuXJqhnuplFfGMn9nl751VO2duUEftCD83SHOXMnoYPGacz5cc+w8u+wzBX/5p12NsmCO5o99rqBpCKF1HtkUDMK5Yj7O+MzDehyOCI8ztdpNSon3MlHKPGcP5BPDsDGPltuMC+ist6f+P5S9nZ2bxUa6Z4h5QngzC8efpttBZ3ZmhBDhW8dQYPyO3pnMVRHmlgcGyinlbT1D+VD8k1CLvd4vwMw9Z+9SSq6G+PByE6lBBCYVhnZbWLUDY/lbG+7C0MNUkhCjnLOr+6dllBM6xp33MZVjuelzLpyEfoWiahLHjVMT10HcfQCTHmUYVJEq/HmXW+jOvq28+gRFCheweu1LZhBsm+FbEYsJeNnOnceFLL3jaPjiF2AB1bP+m9NEH7QmMVHiqxv3UNzm1Ml9PMLsOacltA5mksRGjqpsgZhGY+yuBMsCPGXoKGiL72Y4sAG6VvXy5He5pCuDUZe2/PfyHSUikKsAY6dhj1BZmHXyLiHjRoLxoKmVvl/pDxajQ3O1Ju5VtqLEkTSI96NS4sVFJfC/Il3ZM2S7cdanlCBjH6x4nKh4ryR6YSrjHDf9kcl22VkBzCrpcfMB7sOtm4k96GYDN7F1fUE11Qmn3JJasoBJSE7Qb8Gxjv4lrueFPyjx0CMOUfKBaJk+U1anwWohQcEyhRk1r9FrCRQSL4cOV77Rq0R5hUeJxFFfOdLsBMfXOJYUYu2jpW9zkkZZLLPgnq7aAgD+hr2k16HCrcI745ztRPyWvae8YLA9sDCQ==
+    properties :
+     x : 6
+     y : 152
+     width : 157
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_AUTRECHOIXCOULEUR
+    identifier : 0x2885f02a6090519e
+    internal_properties : CAAAAAgAAACIPub8MjQK7aOVNRJmtHXlPxjulBWrTLLmILfVXlHj8LbDUknhyamicdRjLji67pLNW+9G1qE0IhLdz855cX4gRq3C2aETnoXFdPbgn9COV7srRwHyq3TeTRbmplJTNQQUToTGzckGUUiWN4Cvr4cKFkfsrQ/edGzuZjwyssjePPQTnQeWhB1NCbQ0WlV5tNgqaRniHtFXWUoK0+EcAfz7Z7l9D4BUDOZmbjV/iLDXCiTNRMnEAqUzMB8LS/yHkaiSavBehaB2PHsHzLEaYCOY+bWfaJhVzA+2VWh8piqWAXD6Ju+qFg/RIOsT8mHaERUyaGDN+k4e3N4SxrlPTmTKBjkVGHCPbZ7CapEIe5L/9srRec3JFA3+radqmNurI8ChM3YIVZe5+wY2XXA8HrzirRSUCUZrQdkzL7L9F5bB/2Vb8vLlXoOqfaCmZ3N4ZuwGiFIlqKZZUhBMORRZivzJBZKseroVhLk2IrFUQme81v6kOKAPZ/+qejrn2EU5nueKURDbpe7SqzkJfuoJEnXynHYzebN0dS2P9BfndB3QenFS4zedWI/nzofF1SzRJcwaVNVr1JjyKZFK5Iny0g7iT+PFaNnesvzbQjwckJb7dJ2EWjfCP4LnFunK2B7Yo2Oo0AOiBG0U84Pq8OEpmtCg2PPK2MHYP/+B5GGv+CGhAW1sFs4vT2/FlIA/v7MZQRg59EflF3qVRnBV10zN4thsf924kNukB4/NuFHZYTmcDiWQgQdMpi38NMfhMSXscuZ73BXKuftuLLX8MwjPnZLAdgC1AbkIUBcloPRY1WQ2DfRijNFlcTU+zXMQZVZQVfd0CYGvep6pbp76+gX/a69BWjo8djvk6mJy47I7TXoeenrqgWbawEhyntzlhpjz+1XlQn5/OMLXb0+Cm2Irk2vj+YV+QpXule7xq5bo1zqQquMRdXtPLtx+8JZVk+AAQNSlQCJgFu2xGvD5omHqCoRv289GjW9k
+    properties :
+     x : 226
+     y : 42
+     width : 30
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Appel du sélecteur de couleur Windows
+         nCouleur est un entier  = SAI_LibelleType..couleur
+         si SelectCouleur(nCouleur) alors
+         	SAI_CouleurLibelle=nCouleur
+         	SAI_LibelleType..couleur=SAI_CouleurLibelle
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2885f02a6091519e
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABJPNc9R//RJngWzl+QnT7zJHMyB6SRaBAckShhlH2ZB929lWDoCp6oRwesbFrfR/+X3FQwAjgcyF40bMHf3t24D22vUbJzPDRF9e1LBdvBykP0h5vPAaaNjcsUqYz7qrk=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABP572OIoP+Tu17yarA546VyR5deJsCh72v5venGJUJ8eslm96NoodzEItTz5Pe5Po9gmDLpuC2DLQYPmbPiRTmPh4lIommgUzpTY6Y3H6uIcCxN50okt9nzkAumONsWlBf6eHkMFnqTu9fBlEQg4vK88Cq120vsG1ubEWvzfW5rqHlViTagNgnzu5JQd/7kfJP4pNk8ni5pdl2W6p4ayZQtGlmhQhmS6jeA70zCspv2Ubs4dfBH5U0vsfR+NuPXtdAgL82hNgPckiiiARfBjbq6fVXylVsbyvV+Rmlim01KJSYswhuo28ATXWva9v6
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      Procedure FEN_TypeTacheFiche(ModeAppel=MODE_CREATION)
+      
+      // Initialisation
+      MaFenêtre..ValeurRenvoyée = 0
+      
+      selon ModeAppel
+        cas MODE_CREATION
+      	RAZ			// Initialise les champs
+      	HRAZ(TYPE)	// Initialise les rubriques
+      	SAI_LibelleType = "Type de tâche"
+      	SAI_LibelleType..CouleurFond = RVB(255,128,64)
+      	SAI_CouleurType = RVB(255,128,64)
+        cas MODE_MODIFICATION
+      	RADFichierVersEcran()			// Affiche les rubriques
+        autre cas
+      	Erreur("Mode d'appel de fenêtre incorrect: "+ModeAppel)
+      	Ferme()
+      Fin
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : RADFichierVersEcran
+     procedure_id : 1767082492085752222
+     type_code : 14
+     code : |1+
+      
+      Procedure RADFichierVersEcran()
+      FichierVersEcran()
+      SAI_LibelleType..couleur=SAI_CouleurLibelle
+      SAI_LibelleType..couleurfond=SAI_CouleurType
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b2f655762897d75
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Donnez un nom à ce type de tâche !
+     index : 0
+   -
+     text :
+      fr-FR : Choisissez la couleur associée à ce type de tâche !
+     index : 1
+   -
+     text :
+      fr-FR : "Mode incorrect: "
+     index : 2
+   -
+     text :
+      fr-FR : Erreur de doublon sur clé unique
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

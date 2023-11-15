@@ -1,0 +1,1189 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x2885e60e1c60d558
+ internal_properties : CAAAAAgAAAAwc1YpwzMh/Z2/tBo4IyfABn9vY6XlWUhBByGpBLTwv88Og7vnYgaXz0WlsImAHXrmAmDsUmfxHc41II2XyMf+dBD9NN3zHhIJeWuDV+0Uvy4LdD7k4ROSH9PkBWtgkpEV5joH6EHl4G+CMsSc7Jr2lnlYlMn+JBvKsH5Tl59uAaCL2mfITNbElKSiw4U8uYSmZXKzPlbCPuhf9KvPB+nMYU/3dHzDNhIXB3VPpyZ+ySOi1F5V8t7nG2X+sxxG6IM9V6gT6V+ajTOFXHgMSF5mHgKO6NPJvLZcJciOxK1vmqsT3EIue7K8uvzBmQWtniTt3w8U/bGTxT50LnEQvitoNfB7LNLk84UWmz07nvHOm+eg5vRm5yqSVejXogQvW2kRa1SRFVnYJYz1lP7DkoAVf++Imx9oB6x6SeABIbEcVXuyCYYrBzRTGd9u3UBMJAV4MVKq8eNLTnEpook0A1mCqcSJCOsMu2QciYISZSh6pdfxpYbnzkpA+JO2Ec2R/dGApKGSGyYD5CIe31XCUN0FwyNUKjcMa9FK63Z91r0gdcvDi9Yz4saRFg83iaxs7NZIqOXLDRd1yAt2sZptsRg9nBbtZjmSjzg7LA9Gja3qaz/BlTdUBwJQjPZVegWoWdRYmrsRjrTwHedbSHnO3MDTljqQKFme+00BNAIzNzXbe1aXRDiQbWZJsFLTSOCc+KH28ZACz49aByqKqf5NJFbUYO6qe/gDbEt4Qst4MLaY4tWXHDC77ENNJjQ3XnIwcv9h8D1kEU1vjTWdlFxxO0U=
+ properties :
+  width : 813
+  height : 557
+  widthClient : 811
+  heightClient : 503
+ controls :
+  -
+    name : BTN_NOUVEAU
+    identifier : 0x2885e60e1c7bd567
+    internal_properties : CAAAAAgAAABSq4jgxfjDM5ahx48wV1xa/v0ytaAnwZJBZcUBXG9a2TW6X1YgClvwS4BEgcA0f42W39oAQAsc92/Tg8E8lU6EmL2bKa6PPIgfT4psApJDbBtb8TXg7Lry+EsmSOsTFTOsKvCefIXxewrySQkPw+NP/t6hO+xVhU+xh8vE8J8TqWHZclCFxltvFv1GRmWq8ZbVrzi543Vzlx1AbjjXpKVh9zliAAj+xzbDEj8R88TJh46RRvTUot/jk7tHw9dgm1zng/4batmjL47jNRpCaDbJH8p+0AwfUU+dlODYaNX1dPvvccR81POwD8k47/QbYGqEomZPC2+E/wDIi7MgJfYTlPPKOjuIqoFc1UiIQMp7pDICbFPitm4/w1YcT5yzCd2r5SiWILSktyUPvC2Ghhb79e7x2pCjaZlKgoIeW1PuYcYCYX5KfKB+qepHJG7U1v4YE8rCG2HCpOdXjzMYdzx11EkL7o6uFpl+xBCIZQ8zebRnziLOfS5od/+ZRhrLvGdgK2Ugb+i5dmPJPeWwOEU4p3X10RUMAt/aPo58jWKYdwgeCFQqamsNiKM9kCDEgXlobBczvBxEcCvYhdHi6YjRkq/ixWQzUot1qksytg8dYfTQ385xXQewrVx0uVanko7o193qkZipFnLccdCcSBbcIV7gkbuiTuFrkWgNQoBVjxD3reHKPlpQlVXh7hL6mDnPm9WYzZ59+IPUHerFzGFmdmFI8p460ODXiqAlnTVg2x5m1rnG9JI5B9TQjiTTcCFGuEfpJU8OLI3M7mDpai+wWj3yrNciKKuLx5Ae8nQpBtvkskCBCl7IQU9dieeiQzKzh2YgzTy0s/z/3Lf63Yn0sIzyqSu2SpCFQAFQ4usC+hMvbHqubShg4hM6EEQOjhSHcZ8z8GGuUWXkBPM6lsQejlN9lXoa6+IbYsjydOGZmM7EzmsWFCHwMNzol3GQWYXptXTCI4PO8A6dcro6vIcKb1nAxC7jARSPvuDSPW6L7UFPj1DgWmXnvZmIwH8YNnP13Uo303mwC1lIVghWna93HIhf23vWYkC2tZtojQRZZpUqHEmqyVo1rn3YuLkONRzx48s1JbVoJ7eRT25JKCajgAUzyW0=
+    properties :
+     x : 733
+     y : 425
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         NouvelleTache()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_SansNom1
+    identifier : 0x264dd6541e8d59d4
+    internal_properties : CAAAAAgAAACJsmAPRwEBUspfbk8S7vrRrGvooqHJ2JbjOCS85sJPwlCXBrkpF4tJO646t4azZRoc2vEpUrUPdHU+QjMfdRnGXIgiHY/QgXWjD3Ksr+is6+daWTLues5rlw1ZDNf5d8XjOuBniiqx/JAoe5W0IoFsUOo/+DTtLe0brTdkUG9+EuNcIiNa8N+vmOJKb4sf0e9wtLMVzKUuvehbjSZIjFiMvSnUuXeEr5Ck9U+vK2/VIZACRCgMeldTIIwhxQvJ/GizA/9SKkzZxRvd9LswU7QXjWMHFgVmdb63nJzRZZ1OyP6o5I2rPiicfbJWNyvYxZyRWNkGdFEDyoc8uunx20RntLo66yAGG84vcmOY08p3eYcokLWRTlvw9K5G/rDT0A4kDoR4Y3KwPh3MbFV7pSHJw74uyfi/XJrKIUnptFeKSsrxgFkEiqlxdS+E/vmEpWDAGoLhnWOkj0XHNV7EJZQ5g4TLt1kFNM9aLnk7vtH/12G0eDGkXqI6kQjVdMsWzCqG5ILK73U18AdN55VrUHsXSO0FCJ+2iEos08nsUq/MUMrWdKfuNKns/+y2IgHURqypn2pRUDcCoMUv6+TiTUwjIFV/eCewdq4tOYlGf4pmiNwuPoz4wqHhzFximnlJezahp6CwF9bFpQ+gMJEkZ8VjHtlbc47/Qvbscmryizjc9Q9d7DCUslrwnBEXIo+f3xOp6HRkSjX1fXNU+cVdlKPTaLzcKMOxBKqdwLt3fX/FZjOMHKMMEjaIKH2ndIA49Zd3hrlyCTAqCKtkH1tC2fbI/KBWwEMd8RCEeWeKLfzmPM6dN7Zgu8P27OL3lPXTqc3b1GIlu/OiDLjw9ZV0rmrNgBCHyoo67WfWGufQ8OK7vUStDYZr+kq1c3iA
+    properties :
+     y : -4
+     width : 812
+     height : 59
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_WD_Planning
+    identifier : 0x264dd68a1ebd2c76
+    internal_properties : CAAAAAgAAAD5Nm25IXXR8LJDHC93LfGf6bcC+euhQBsUNWIdxfKi8ZpHw0FFxwvmq7rCLGPOt6CUGmJK1Q4FXlSgPuPHJemTZQz7y5DaTu+27GNL5S/xs9uG1bqEC0ByZW+9IOpwTxbKsAq8gZViMqPBlYKzdmhdVb2PnJZC+yjKO10iyRex1I9WPmN1we4JSDj4cwk8yrstMKw94QxUagJJvE/mqGE8HxsmXjz0+mC/5PhxwJMENPZbUUWuoK3do2AhMJ1GI4AkjOOPVCdaruQzXpXYsHIzZpgLdTPi3rdUK4Poe4lZWfNwsGAVqlztm7CVkfqZ8vfobpiDFK3PaSLy5oDhAniWti98JftdMZgv3z9qy4H09/6FZqL9RufZ86THjLVE2k6QMSWbaWfZFx0gxWG9np48iEtf4JDGUvZAhBhbrHB8ioBfwMniUc8cc6eqYk+xf7Ghh52Nc6+Ktd+xK560gIuE189B+z2n2QU39kvh6zmPJ4XZu3Y07vjAALN2IcjH0SVVMN22XtwXxGI/2Zcp7Sjv1GA=
+    properties :
+     x : 10
+     y : 4
+     width : 631
+     height : 51
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Developpe_avec_WINDEV_Blanc
+    identifier : 0x264dd7521fba3987
+    internal_properties : CAAAAAgAAABnkQ1VJiLwTlxcazoygAFgHtg2fEZz+Q742YkwRr2fHigxZdro8EHFAvOWgOmAj38gEdMp/jLPwULJoldwATMYkYE2dCOhe4gDp/GEXXEAKRd0tg6SnDsxRLAN8Mq8zc29RAkSBTCHsNdiUArlE8/74B2B2AYe00XAfYOLERKPnjvS6Ax5uX3MDXMB3xfUc8iAqtuAfNjQkXL71llQ6AE9YGm5aaQztOXlmvKKSlsEB5i3b9caHyTvQ3Ebk/APLEf2bPjF9tCNjAQi2VczOW71VFPg87F0ujYmvhkorRK3T3097Y1DajAMIDCrB5J1YDFXAECAWlwA5xe30X27Lq+T8qp6KvSrDKeZ+ZqV5v8o1kSnzAs1HS1cTWDNXLzk2z8GWkeIt9ErsmV5IlpcutKy0+2OD88PuKYD5DzsPUrCuolhLR26HwghTatXTHVmjoUyZ7/SKFQwza3UHGLOzbP+Vr99qBLo9C5bSsIS7pGiSv6IIIbDId3SPRl2yVDGHPJ3Sr+MQG/TwUV1M5tYM+fhAct6ARRjowK9rs732UR7HRcRC+xM6R1p0cJTeooXq9YBU3xBnF26EVcDt76IX5yr3WbvaSfN1BJTFHx7rCce2Pm0eETS0wrcyWvzfxoomM/Sev9qFhjpgkFmxbncCGcQldR256sbUPBxOiJT89uhtDr5jMtO5ZhOKItU4DAQwpjzTZMS8wW9zM68Tmd/bQ5pWLI6xrwGbKYxay8HzEFpE3VU726DDTqeQVBgr8cGZMqfthfIxpFcT90h30VFDmIrRzRnVcMBFg/vUo7GarPqIqBA+/qEazV6sBQLd1ohPR5VHzLhjol7nnHaieE4E/9jQbHromvWwvz57cGtBUqfqCyjPm1PbkF/qlsrSLT0PLI35aY1cXrBrVZd1qHTzD7Qm2BdyTPpIJlHmty1v3h4d7ItJZNYhHNmUyLq5wARDtlEyjX3jBZTvTwwXNErSDFRIFOQ2YegD+/rjfSdv3ek9RV+aBs=
+    properties :
+     x : 694
+     y : 13
+     width : 107
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         NavigateurLanceAppli("http://www.pcsoft.fr/windev/index.html")
+        type : 18
+  -
+    name : PLN_PRINCIPALE
+    identifier : 0x2a046ac00c0aeb18
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 121
+     width : 799
+     height : 373
+    type : 80
+    code_elements :
+     type_code : 112
+     p_codes :
+      -
+        code : |1-
+         // Ce code permet d'exécuter le code de changement de période à la fin de l'initialisation de la fenêtre
+         // Les différents champs de la barre de navigation ont ajouté des traitements pour se mettre à jour
+         // Le code de changement de période provoquera la mise à jour de l'état de ces champs de navigation
+         	Procédure interne MAJPremierAffichage()
+         		ExécuteTraitement(PLN_PRINCIPALE, trtChangementPériodePlanning)
+         	fin
+         	MaFenetre..Traitement[trtInit] += MAJPremierAffichage
+        type : 14
+      -
+        code : |1+
+         PROCÉDURE AvantCréation(rdvCréé est un RendezVous)
+         
+         pGestionTache.bTacheModifie(rdvCréé)
+         
+         SI Ouvre(FEN_TacheFiche,rdvCréé..Note) = Vrai ALORS
+         	AffichePlanning(gsListeQui)
+         FIN
+         
+         // On ne veut pas provoquer l'affichage de la fenêtre standard
+         RENVOYER Faux
+        type : 135
+      -
+        code : |1+
+         PROCÉDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+         pGestionTache.bTacheModifie(rdvEdité)
+         
+         SI Ouvre(FEN_TacheFiche,rdvEdité..Note) = Vrai ALORS
+         	AffichePlanning(gsListeQui)
+         FIN
+        type : 136
+      -
+        code : |1-
+         PROCÉDURE SortieDeSaisie(rdvModifié est un RendezVous)
+         
+         pGestionTache.bTacheModifie(rdvModifié)
+        type : 137
+      -
+        code : |1+
+         PROCEDURE Sélection(rdvSélectionné est un RendezVous)
+        type : 130
+      -
+        code : |1-
+         PROCÉDURE Déplacement(rdvDéplacé est un RendezVous)
+         
+         pGestionTache.bTacheModifie(rdvDéplacé)
+        type : 131
+      -
+        code : |1-
+         PROCÉDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+         
+         pGestionTache.bTacheModifie(rdvRedimensionné)
+        type : 132
+      -
+        code : |1-
+         PROCÉDURE Suppression(rdvSupprimé est un RendezVous)
+         
+         pGestionTache.bTacheSupprime(rdvSupprimé)
+        type : 134
+      -
+        code : |1+
+         PROCEDURE DéplacementRessource(rdvRessourceDéplacé est un RendezVous)
+        type : 139
+      -
+        code : |1+
+         // Récupère le RDV sélectionne
+         SI PLN_PRINCIPALE > 0 ALORS
+         	tmpRDV est un RendezVous = PLN_PRINCIPALE[PLN_PRINCIPALE]
+         	
+         	SI Ouvre(FEN_TacheFiche,Val(tmpRDV..Note)) = Vrai ALORS
+         		AffichePlanning(gsListeQui)
+         	FIN
+         FIN
+        type : 66051
+  -
+    name : BTN_PeriodePrecedente
+    identifier : 0x2a046ac10c2aebf3
+    internal_properties : CAAAAAgAAADT9trgNvrswid8hId5rN7dK31mRElYmJxPSuDwJaPsRAmhA3e74jKgW3aGP3oV6O6zlwHKE8d0Z/5sf65WGAOTBujMmU5qPbaOjXqCMybmw+ixYJWbsVGNOWSovBvXLlsExMSjEuvqrTu2L54A9lxkamNbjstJWPPZ/bj4lY7XH/hEZOYHqymMCIpDhc31PVHr6WuaqNNlSkDx+S1woZfbbPYD4hgpKDx6Gt053vN7NlxO2yqAm5Af2xITR68IRK1OJcU46mHXvpsEelrLFpzmRBeVLW3wVacPiVKfO4XQ8oqxwB1MCFjx83oZYPvGLW04lm20oc0j08b8AjMTBRO2qAiYZEaiC/UKPjnmekOnnZ2kb6tTXu0DN2JddUer7vKxnMx6BAxBdBzgVhZLBgpGEOQ1WZy3Lm0z7wj2mzXtMMXvfR9gnnVyMnh6rd9+qXCI7HF9TKsq8rcLHKsQ5K7l62+Do8/lr2CpaEDRtgGPvhI2lJrIobUJ8d1k9gJgoa3z2qpmD8ayVFt6fXoBYSFWjClzEJgVXRq/BnKEwPQNyE0/GnND2BQw/qH/fv9MFdVuGPN0a+7+T0SLbNJAL5LOMsRDYYysCBscKbUs7v6oDaNhyCPsohPb/FHtLfBogRpsAaWwsRpTfACvPKgvcvCeFFhK9T/EPUtivct0z7J74zt0ir2PLpSYnAvpwp5bsm1ucwcD0OcvluQWeHifRmsGNN9SO4a9iHcW4Rw3SWgD7TbNLKtFztm8K5NagetMH6IZVMUyZPlvOyxDeMY3+LGgL44/e+X2H7w1U/HChtWUXGzPSv6o05HPckMscsJOYZrlBcrjNUTcwL9AqGHw/YWQJmNkAcEMR4OcUJ0P7cXGD/EyjkLy
+    properties :
+     x : 29
+     y : 61
+     width : 23
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Période précédente
+         PlanningAffichePériodePrécédente(PLN_PRINCIPALE)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PeriodeSuivante
+    identifier : 0x2a046ac10c2cec03
+    internal_properties : CAAAAAgAAACe50QZcLqDMdfbNrnxvkfadcP0+FYB4GN2ZK5BUn13Loi/brDnHkc91gGYOum+19jYGASi9vNuaCpDrEFM3BnTwDjUHGWyIfghVuicn5aEz/6pIgCQhgu2+J1DBITVI64AERajps8/gDTwhxlXifaZim3D1vC13qTwKXNKQdmUZYAjOO64U8S4h476ehaUqWdIW5ZPiSXSmIus6U3qNYBqPGivZ6a9IaqXAq/T37IA1tSbgss9FZiynkFfdaFaJzoEDxT+pvs9+XVrzVkQ/5doR/A8yuCyyeVGFAyWzgwfHvR+sz9em5dGD5vebcR/GE58NPI1DH5k19iNImnexz/Jk9LGHMlasg15Jnojbe9IIJp3Y9A+YVgK72ff/UqqN3upBFqCzq6Nt5nY6Op08Btn9Gv0InbpRNjX0kyvi9HRx7R73H+HuhJr5A4y3UD5n8lJVXeJ7y/nfwhKSZZu7qJJgbPpMoeuQ5y5GzgSXdillKe3qvZdm459ejFhFaHp3quv/LI+yndksuNgy8w4aPIdjeY11bjZIyZ1v0UfiVk59nuxLn4Ho/o8nnwYD9d/UDmFeXxw8qORYifREOlYPWVlpwekdAhs3ZtECCskb1dCEiLwlDsRbTpdZktQ1H68QBFF2fRhqv+mkNrZjpnM0a6WnD93QWqQR1+4mgrfptWbltmfjuIKN8R38uDYawi4tO5JGb7wEF4ncxP82U74sn6ltiAB57NGakqvJzA5S7AX+v7f1hQvXaXDL4L9TDNWOjU4IRQ0MY99IyY+O6zbO7lKWOkSjhHoWm84CM8+I48fgfCTzhQqD7vM/9D9jEP193nUiKX3EOO8jsEB5P1zqebLw4WfHVMYuWihAoyio5Pp
+    properties :
+     x : 57
+     y : 61
+     width : 23
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Période suivant 
+         PlanningAffichePériodeSuivante(PLN_PRINCIPALE)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Mois
+    identifier : 0x2a046ac10c2eec12
+    internal_properties : CAAAAAgAAADtRPZmp/hrMINiHKevzKCX0w/O0a9tQRkCtKQlSCXUJETlmE1lXOUvQfC8iNBtvT9m8KDKgT1Sutc4BQcQymdCvksELuupsaqqoxsRvAZW74VfXLOFR9McA4XxFHODKo9G5L4onAP9+HoaZSk46OLL6bwl/pdbFTr1Fs4Pgn1kLICTcfpbxlNy89lzeTKwLkUbGMvb9ZKM2mmhHjW7f/QVNUHBtzrieCZgFSHOrUC84RZLjzxDXEYb4IUfCtN9p5rN18d35RXwhgUPQR5c43HoQ7xgpLA+I/9Aay2JKhfP6YxHYOr8B5N53Ty9UXJWmKeLsjilEnWtwxfsP7ewfkikGVzoPjNwX1QAr9IRSQrORb04Nmp//qk5hRUY8dChxBjRasaPeDIjCoZgbDTyWnhTxgHO5EFKb1TyT8IPs+GO2HQ/NnZxhaCmpR8UQhWd/ubh8T8BtpOVH7+/hLfC8RfMfK1pK43s0xGHidWfdftBnlIVi0Brh540ceVUgmJhUe3YmGcAHFDGvD4oEpRagjE1YDFmBRiH
+    properties :
+     x : 102
+     y : 61
+     width : 181
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	Procédure interne MAJLibMois()
+         		LIB_Mois=PLN_PRINCIPALE..DébutEtendueVisible
+         	fin
+         	PLN_PRINCIPALE..Traitement[trtChangementPériodePlanning]+=MAJLibMois
+        type : 14
+  -
+    name : LIB_Semaine
+    identifier : 0x2a046ac10c30ec12
+    internal_properties : CAAAAAgAAACw3tAse78xIb48XwRTK1v2sgAmFGB2yiOY/ZHHsA1YLusZ8PJHmzSK1P66mSsfVguAFFb+jSORz0KhoPZ8Z06fqGZFUAZpUJx6bUIYB7ymfC134RCd4DoN6HxJJNfg7SxwvCPI6gEAjMlevcDN0z0odxEaN3PPf4uZOkDdOSgneZeOsBFR+nxo/LAAk5P9ppt0ONDFQAl7uit0xeXwJ7ovO5Nmue/l8qKYo3n0yRZHBc+q104/Jjp1y/t1cxqb38CACPRdZtY0G0KIdL1qmy/jVevm+Y+i5DKV1tSlheQRv/h31hDnfd5of7uAqz8rbvO32kpeUBYXpq+uVROHfWuI7rDw5NKZFvkCKEgsjtaydV1G0XzGA45jsGEIvi5dGw6JSo0jmfRdrAqRrm3O5WXUYxDGaQxAnXQuyl5N/PxWdFTHOAwMkwB89K8QsWWUldFSnn6+VJDWoU+daeyv/8vn8CHwF4bALQsCEb+n81k4wiWfpUI=
+    properties :
+     x : 102
+     y : 91
+     width : 181
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	PROCÉDURE INTERNE MAJLibSemaine()
+         		d est une date = PLN_PRINCIPALE..DébutEtendueVisible
+         		LIB_Semaine=ChaîneConstruit(<§$0008§>, DateVersNuméroDeSemaine(d))
+         	FIN
+         PLN_PRINCIPALE..Traitement[trtChangementPériodePlanning]+=MAJLibSemaine
+        type : 14
+  -
+    name : BTN_Jour
+    identifier : 0x2a046ac10c32ec12
+    internal_properties : CAAAAAgAAAAqfFIY/iU3O+U2eM79oxssRPr5alCFwbjR6lmM3KSw9xN8fBpMHYRoKRLG89moAgDGU5hE3FJvoAKfGkA05NkVk0P/WgDBaqDmahanP69Ros7cUZisQ3Kpg2Fe4y0EPZUaCqmAiYhXQofEpn0stDoalKZkNWe0CKkGHgvygN8bjHdTeD38qXxmTKsZ9gWy+OQBoeJHLPpWn3QdwxIR4BaWTwnYBxAx33Yp4KzmGrdMvkUv62quAN6WtvY1vadob+XpBPv2/Y3PWCy4xDipUXBSAap4ndcSz1Siq5qdHUx/3dDkwUM7oOHudAu0ZEOz1eSCNntLeCIMDRSSqiPB0KnX4TDW5AacLMtq5hmi1JHi/94Fc271h4JzJVUcC6v3wn4BaIEHRNu2vlQJG/W8lLgCkgC/LzaRLHBPANfhVO8j8ySre16nNr0gjkWoolGYV8eJNuEDgyPy+K8mqQGvj4EaJJwQ2Imfs90Tr00C59WuKmsnvYBe1L7rHXO/CcUviG9dXeXvPvTc5+MQYK6GEnYTvPtGS7uobf1WprnT64UiZdTZM+DSp37p4iSEU/Vqy39f5C1oryschQ5jKeVRF5ca6OWLWKpqhBOSeKv765VjJ+dSG4LzlNL8GblkT1mHsWeUPaDdE3A6H5zPT9veg/VgGp1htwuJ5UasWnnXo8T1dMV82BXi9f95b0GEM/MPeEGNF+sg8lylO4DT4PL6FKgvSxrGgVeitIJlHuzCFjxwd2tU/yG3VjFGuV6IsXJ3gE6KFRt9c5Mb7ca1kc2RXFyNf/G2azkoNNkNqXamh9S6UVKg8NPTYd4wK8mYlQtbyHf9sFPKTO2/cEUIl1v1GQiR1f6IphNcija0W1Y4EYypSpJfnaryes4e6UXlIm3/z/k3q95lc+YUSw9scVWx
+    properties :
+     x : 440
+     y : 61
+     width : 63
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // ajoute la procédure de MAJ du bouton "Jour"
+         PROCÉDURE INTERNE MAJBtn_Jour()
+         	BTN_Jour..Enfoncé=PlanningMode(PLN_PRINCIPALE)=plnModeJournée
+         FIN
+         PLN_PRINCIPALE..Traitement[trtChangementPériodePlanning]+=MAJBtn_Jour
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_PRINCIPALE,plnModeJournée)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Semaine
+    identifier : 0x2a046ac10c34ec12
+    internal_properties : CAAAAAgAAAAHLY056PHdfpNScO0uYyiGUcTnVrB96utCKXV65INtaEYgFr9IbOoJa/1ZjZMMCExweJgKQ+RPgE19PCdDF1TjPnEAeTqg0TeSQnSIepg2IQKyXK/UEfIFBda79iKemqEUlqyt92nsFNRu/mMle03zdWjIVRJFeN4UWz5pAwQb8YCyLLBHErdOIVq/q3z1SRsqSwjgKAxsnE3zMAzaga+HxvmgtdprbVU91VL0HKxmCbpezrxjhd5AvEpmviXJOg1PFktk2YeMjjyl3UdDvlVsWw+YoW5uEZDK+kkjEq+OMCLSWeUdDU1XYBTn+0rauDevbmDY+OwekOlG8rG4v1cFSRaMOMXCq4tswkUJOrSITzs4zUQRiaO/9hmzHCed/6joNKSymdv5QrsByvKQA9dXpxlGx0MjirpZ8aTfxiPS5a3F5D/h8zHChtnNZcPrEdoEcOukmZOE7M4uGjpap8PU929Qv422Y2FGOWqDTjk0vKzAITvwR7whBk1k7jgNnEkIUO8m8AdaffyS53E/aHLJfURiniPJXQM9tq6oxMf2Tcm2WQEUFFLRO27JmDhOTfOkAf/9NVLOeWXRNDSQBfuu79zbAchBFNcjKDScqgXdvaRn5dlzF47smltPyrhRmXMPcBTys0OgNwdDgjKX86OsWSzHIPeE6xT/TroE9tbptjKxQIY4TGedwPNBgLg3doPkbp0HdmP/JyNVs2EfIujPGC/sopPZ5AjyjKnUHJjbiktbls5NtdsYOQPRCr2dQla8bCIyyOLXu+Y2BcuTHAiOT0pG2CoW4awtAU9n11Jjj+bCXBB5cEMhYMaMZ1NEvIrxRFxHgeEE08rs+BRKBLbx1L5l49SaC5ZyvmCuAZnw02Ddb7MWN1vYPZjF/CRuqa8x+jUBefgo7eI9Im5hrijr
+    properties :
+     x : 503
+     y : 61
+     width : 63
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	
+         	PROCÉDURE INTERNE MAJBtnSemaine()
+         		BTN_Semaine..Enfoncé=PlanningMode(PLN_PRINCIPALE)=plnModeSemaine
+         	FIN
+         
+         PLN_PRINCIPALE..Traitement[trtChangementPériodePlanning]+=MAJBtnSemaine
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_PRINCIPALE,plnModeSemaine,7)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Mois
+    identifier : 0x2a046ac10c36ec12
+    internal_properties : CAAAAAgAAAA/kj070lxZf8WvCz1vte0g2DHmTlQYa82j4gMOLtDGTFJY/Lvqy/sHtlCEud10ExA1CJHzY6VdXvTumsbGOlisgs8eE8JYXF/6sF522KgGXxd2Z/QS+UHJ2LFAefkeBoUTOzKsfv2qo7SyrcufrnCP3QJIu3CsDtAc1zPiZswyIcjfYWW99snoyfM6XRafP83sp/Llslso1nDAnEZ+UqrTfQwWC6cXc1TV3mA9jCzbvm+kOXuFT86osTCkMxoJFJuR3Y80LEfI2Z98IDusU36AfNua3RvKQKyqp5XepTgydVtkkQ6PT8IMCzCJX6xayHsdCvYv59Zwc0G3D5D1Ost+WTIPpFcztlQCHgZH3uAv3qQ9p/3LzdyFs0W07Dq4fimY0kI5mB9kNGKBQSrp0j5bdjpk8KJIKJaqvdRtFEQMj4cG9fiHZK2NdlW81bpqlpwwDKm9IwDcvA+uTbR7uGlqsHOJIl4svQlLaQvlfx4QnIl2+qYVC1z/HftzsrVCEt+5Vhi5WYsaYzuCtm0c1co76FrTYeDDNUXiouk6NbiEEQREBFKDKJRXOComCG8NGYHte5ZScFaeBZqfoVQHTNmE3g4S5hON8NNeNmVuPVAruf19XAaqK7DuK7vyyjHuP/v8trtftmmg1RJNedYyUqG6kKgqkQLSmUbotkEau9On7LF1Y6d7OIXxm7PSQgvumEef4qxsqQfbYd5vgPfGWdIv/9Wr78IZ0BbFDrBvBv0mkdEXqGOqZ4mqOcIgXx3lLbEDo0Pw1fMUuMEK8js+2NV4bAEsoN2KGYKGUFGcRui7qmm4BrqTZQgFV8vh40aLP43nNeMn/Xalrqs69cwp0gqZOf8bhz5pxuIyKQxNQb2+68788viB66j34mYE43uvTURsy5dlckX2eUBxxF14KkA=
+    properties :
+     x : 567
+     y : 61
+     width : 63
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	PROCÉDURE INTERNE MAJBtnMois()
+         		BTN_Mois..Enfoncé=PlanningMode(PLN_PRINCIPALE)=plnModeMois
+         	FIN
+         PLN_PRINCIPALE..Traitement[trtChangementPériodePlanning]+=MAJBtnMois
+        type : 14
+      -
+        code : |1-
+         PlanningChangeMode(PLN_PRINCIPALE,plnModeMois)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Aujourd_hui
+    identifier : 0x2a046ac10c38ec12
+    internal_properties : CAAAAAgAAACrmIWklmIAcZDW9jhRhED4lK4tp1YC/YR7h+LM3k1pUJSiGxYox/WL9w/Lx7JK685pZ5Y+24mzrW/1vVVYXy4g2Y/fgpUx1WTTtBVNBgyh9t70v0OnUcsQW3HOeiDfMI8Kc0Kl4hbfZwAIuTcm98HLT/v4ZvfmZofz7LQMzpVzQ0ebWftF7pjvYeu8BEINjthFcAdd9fFrmiPnTNryE8mDjlta4zH/ohk5ffoDaYqIf331VXWKhxIKHQ2grbpzwE0dxRc+MY+wn2VmlsZbsmMlxamuPhVI0Blx7xGXjohCdZ+U7XrAiyZcmyDf1dPfXwL+qMbEFTcIu2SM7J95U62hzc82AIKFeTyJsvEvpqQx0G48cqn3kH9OqeXNFnHzAETUwzkRHcgeprqRMTMTw0V+UFhz6EOexZ/iqlhySzdivgZOdbHnBm8OqdQEXevldCaq+8SuN+mRXAKCbPOKiTl+4IWRrpGXXhN6TfzRLoA852q5h2vLzgc+aLqY5zXo9v53MXvXLvdCKURrQFgn/QV0YDRlsjEJG75c2dfQo/pVyCCmRQnsXCUqQp2IOuS8Z0/DDdEDsxvgD146J2ZUPE++Q6grScAVYqcfFJZy4o1hJ3C7p4/ZhdC0cGF7hka77zWLhaU2SQH6e0V7FUFqCX17jVDh3oaPfUB789GdaX4Fsqa2/JQEVI9mWaPjE2u28Avacft427NKPQ/9lWlXzMASRSV7gowGYU11m4LEdmZa2CKKnOFnsi1Fi+ZAV+Gijy8AXRikvklVYIalUVw6/smZrejO7mZ4qQhmbm3HPgKmjfGGmnrelVwJEYNwOkLEYfGGAZTTuj4N/KoxikaU82CNuivvVbJEEjTElHp1iByhWlgFD0rTSDjOlATMUo4XjJ8=
+    properties :
+     x : 635
+     y : 61
+     width : 93
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         PlanningPositionDateHeure(PLN_PRINCIPALE, DateDuJour())
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2885e60e1c7fd567
+  internal_properties : CAAAAAgAAABaYLfZf+QyNKzWNqUEZrco8rF2msAxveYwQg8xiFi/R0se5lCYpTy2De9wVGjcc+F35nkpToIIL5fwpl28FGKeCLiCHePwJb0MzqZQqp6VZvN4F0psHpQ9OAof+A3BAjQJNUBaJeC/qX+a8ylVJtGD9TG/iS1qqIFl5wiL9sZQpL+AyoehevrPPNDXRskyvVFwxXAg0XNxkuWmwBA0S02bQ9BlxwQgug3JoORdpOHjAqk2CRsAKMptGb0LKjlMmhWaUU214LcwXBwJdyOHLK7PyjssDNI7b5F/KjxYmLPY+ajVWQ==
+  options :
+   -
+     name : Fichier
+     identifier : 0x2885e60e1c80d567
+     internal_properties : CAAAAAgAAAD2ht2mVlFXLsNgoIPPfbMw8wLIpZmyXJl5bibUD2Ad8VRj+a3ifDcAsCzyEgFAeyss5o1v1WmnFnBQXxTdxZGbBbqe36YqEp+DFsg3vjf+fhW9/wYb/3gLLGpYVFeTIZ5yqTNrIWGv+Qnt0Rx20sz01/09hxOLOABFZIdlnvV7QLgMwaEOSFSRMgORcTkWWMdcKZYQdZK6unXOc73ZUP2cOw4Bpb/Ytaks+rhP32AHyE+ajFWfehuMd7atpNgk01MwN+Wqi3seS9/inzK7yylvL5rMDPf76qJYQcvCGQrIBXFS6ChWsMRsdvZZTn18ZNOIj8gutIjA6un9IfQbNlIwFdlE39AqbQ==
+     options :
+      -
+        name : Personnes_
+        identifier : 0x2885e60e1c81d567
+        internal_properties : CAAAAAgAAACSF0LlOYIqlB/Y6NQtKRTe8PKyK01VYQx4sf317/jKEolnprqI/MKF9gJ6f96W9QO6irHEsZf8XD3hgzg7nX8XzEf/r+Az/K4RvnM6kcN1Xp8uy5Z2o+gYv6jMZiYfykiYX4ofMlu50wqTLV0SpMhMK8Mhz0d9OVlE+jshofxGlG/yBc6jryxp0WfLL4tC2aIsAs4KL2gfuy6GKOKinZdyTyGuZOe+LxIrhci18c2edQML931YNjIMSzwttD13XsWkMle/ZlE2o1qlmFkgtWOa5czGH3D2Rh47nzI3dWaHeDj0ggvXJ3nMqcHDvfKXncISkmyr8j+LXUU7K2s03c/jWXlLDRVOiQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             ouvre(FEN_PersonneListe)
+             AffichePlanning(gsListeQui)
+             
+            type : 32
+      -
+        name : Groupes_
+        identifier : 0x2885e60e1c82d567
+        internal_properties : CAAAAAgAAABJqy7EBAb141zgdOfGWF1eF/ErWEZR14rNaQOfnv03RKlwq7mudIjxi864yllvbBzAuFUiFHLEani9joCufChF3aV1qyceUUagagGqfsvV/lnez2rLVSbXvM6epug/aJOqP2DOTJlbr/9erMq0+3BZKzWTpEKVp1pKhxV1xbGPP/gVFjELfgv+g/U5/sPaT+xXwuM8AgKp72rwqxCh/oYRQpNit8rsgqjbdgamt2CUvY5rqVd46CBPZgiRS7KQ8tpb0axeyKMHPkWR9GkauxafVMAO+836Z3+7vBettUbFRnMJ8L03r9W8Ox0ScPsEzbF/s60Jhn+KA5rN6FzXXG6kEKv1uk4=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             ouvre(FEN_GroupeListe)
+             AffichePlanning(gsListeQui)
+             
+            type : 32
+      -
+        name : Lieux_
+        identifier : 0x2885e60e1c83d567
+        internal_properties : CAAAAAgAAABMF3cdhaILY60MY/Oy37wQ3GiVg1goavHrQVotdo8K3Ntdp0YE3de4ireyIdUxmS53xAiqay2hpB12TotfByuHTUb0kgnEjVMVQ4g6q/S7wzR8AvuIveBsxnWZPhnEUnOXJtczQRjgkzeCbQM3bNlpD33yOE5mSvHF/+XSd1GyxAimatujCQJkBSCHv9NXWPxBuPzVYzEDCx6M55Rz/7QllQfnEWjTOwZz20rexL02CKxjtPDciY6xNB0jT703e03+64hwGIhaXwyD2aX3a8Fkuoxbd6MHMskwpfPeM+60zM1ubGhkPOVO3oyrumQfFUGWhsaOWjlEK4NUxCE0liXCRdE=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             ouvre(FEN_LieuListe)
+             AffichePlanning(gsListeQui)
+             
+            type : 32
+      -
+        name : Option1
+        identifier : 0x2885e60e1c84d567
+        internal_properties : CAAAAAgAAAACjM+TFA0oX0Y2/AVE3QUjoHHDQLVJWyu+XkYYIAhrNU+6J5ERJjPfT77M9/fOKp2gn3ygOVNDSY48P+hkMpPFPnzk+4xkeFSI1ZW4LvjW0MmrzfxdWfXOUSx2mQSIIbC+Phi7R8fNcWHAEX8RNnF4iE1S+wmP8dlCCZQ3PTBLzmAK4ogANKKYnLCQVaB6gdd62VwZYRzK/vgAtScOUIyXG0LxVhlo/6gqm937tosW6IjfyLtGp9bnjdstgC5iBrF4ap4zU92lp2BAxzyZW1SyLzlaO0S8XKBW7Gm5p6fdsAodYzLQgPLWTpQcACUY9Dn15M5jcdLmbi+P/qU=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+            type : 32
+      -
+        name : Légende_
+        identifier : 0x2885e60e1c85d567
+        internal_properties : CAAAAAgAAAAneDVeskVuWUXi9Q6QPB434u793cFfnQlm2O5Xo/wHPlhIw1H2zswoQYS0uXd6w4N0DGc+TQhyjMCcx8va+H8s5A9eZc0jZH876D+TWseygofkF85NWVuIQAZDEQyOvKdRbsgIpQ1Ozo/LymS4FTPcU/++Up1cujkY4CgaX9j6ciZQ0Zvl4/Z+Ou3qt6GFMjr7h4ySql+qDz5T3c/oOsTTzKHMyHiZ3hySCwXqzES/1CJu2OljBFF6As5IjXQqhlY+elaPVynovznXjqZ0pPZqTEY8OKIWHgdHfsNbPY1ho8XCFzcB6sUHYsoS1tT8kh/TgGeEIl9rqrn5QvI3Y9ph4MkazQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             // Légende = Types de tâches et couleurs associées
+             ouvre(FEN_LégendeListe)
+             AffichePlanning(gsListeQui)
+             
+             
+            type : 32
+      -
+        name : Jours_fériés_
+        identifier : 0x2885e60e1c86d567
+        internal_properties : CAAAAAgAAADodiCk0FPCMLXfqxY+3SFQCrjyktR93gWokFZHqrK+Y/YkNTl0X1zTwKQERO9NEx/fMjvzGrL9J+Mk0wDwSCPnpIDYchztQ8WQbqBl+rxPgf3lixHulWr5DgUja80dha3KsaloDrZEnffmJFaIhU96PPVCF0Ngfc7pUjxGVA6zEJ/NyK7JS/0ndbHYlXtuCVUn42xIs1mSI9nHJCZuQ+5/V95khBCkomNBLGKrHq3Bgdc89ewJKKUHMmq+xUmKzCGT91+3yYdDxEGnUaJq5yduR8LZXvdoKji2+UquwwjruxUpijZ2FJX0/ckyJKO4AfRPt/f7xQvIAVwWztRh7A+YI42bRbZ4tXdHxV0=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             
+             ouvre(FEN_JourFerieListe)
+             
+             // Tracé du planning
+             AffichePlanning(gsListeQui)
+             
+            type : 32
+      -
+        name : OPT_Séparateur
+        identifier : 0x264dd4af1ccaeeb3
+        internal_properties : CAAAAAgAAABGsN3zWQFSy+mrBYRfQwx+zwqWhRcMhF8enCCwY1gqA7TN83Av4AwwURiXDE2DfifyjB0nlQVPN9lB+HTP4RfL8C/px9IoR7zRRkwC9lF7WQOJ+mkGtTbkyBwGi9MNnhMqNlZcURM9/g5qCLUs41SS0/Zfks0la8RlxlSyg6neJc6dNH/ZiCADKy64/0RdWeas+roPI0U1Z7YxActSIQLjR6c9+ibYpuNEzW48OfsBjhDqMa8UczcZuAzzKWsjg/GcP8lp//bUzMigQ9yNSENKkaSGayNOzXBGsSzuC3ISoJqEaA0Jdx1uKdsQ/EkM/TfFew1hOdXw40I1UKp7gQ2dA5bQtUE=
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Imprimer
+        identifier : 0x264dd4ab1cc9dec5
+        internal_properties : CAAAAAgAAACu8tuQS2BgP1aOjFEah8KGlmYZDaqgKawMf8z9lYn24/4MCkIPXXMcVUDWd7U9dloOLPijy4CeAygJZbGMlstNQoK3r7271rH0qiNzqKITYRFRyhMS63fhF6sIqKm34Sa8DqSWPL5H/942m2BE8VKLe6cL6HVZRV4n0sHG/3oDsAbr3aMUTUIm8CWi/75ftQhPceMj0GdZP+MjQoq6dZ0Vsxj8UesFFZac8n2+E6+DujDSPRzhayhNO1rUV+w7qCGAwkMmw+Dmv2+AsBIdSock/VWMINfeogdXueAYDRL9vC744pxO8YyRLfsvlUJn8o8c55dwirtoxdKY3x3Kahefipml
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Ouvre(FEN_SelectionPeriode,gdDateDebut,gdDateFin)
+            type : 32
+      -
+        name : Option2
+        identifier : 0x2885e60e1c87d567
+        internal_properties : CAAAAAgAAADatLcr/PVAR56e9H1stS07yAk7aO3hA4PG9s6gmJDDXedi7ynZbutnB248J3fOGp1g30ywGVMTqb78n6jUQnN1Loxk+xw02ETIheVITpgmkGnL/Qyd+aWOIYz2uVQ4AWBuzpj79/eNASFw4Y8xFqF4qO2iK6kPwTmy6fS3jaADBsjCilBojGrwpNi4/ShSme8CUSTBqdTStqCo/Y+WKKSvgzrZfuGgJ6DSQ6VD/kPuwJDXEMMOn15ftaOVSPY6PmkAgiab25WNn2hoLyTBk6zKt/GCA4x0FNiepJFRPz9FGJKl+6poKJp+Jrw0KA0AjFHt3DaLWSo+xndHJn0=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+            type : 32
+      -
+        name : Quitter
+        identifier : 0x2885e60e1c88d567
+        internal_properties : CAAAAAgAAABvMCh4sc0K2PKbTNqohvV5ENOE4p/ux2AoVjtmo9xrnqrECvh3UrY9YQV8xIC4lPRUwAELJIfB2ydT+bOVSlA/8E3x9xawoWRWCn+hig1vZrKidCMq9zgfdYb3pR4wP4lrTsqAt8eRFmxkh0Vm6+D90PLeXGR+9oLmgcU3ppYJu9anDz6ur7qGptXKcgN48KpvDKV+zH4beux+I+DVEe0VNTDQ5F5vV+kA9jvdTxYX8+ZQvGPjyGkDp3nUAQN1A4Eeyn4dtfdYVb73R28JCGLLP0r55UsP6u11Xj2CabDqHqN+4/HZz0LZLXeaiyhby5tsjf3HE7+ssz1IitNAeUDlZvI=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             si ouinon(non,<§$0005§>) alors ferme()
+             
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+         type : 32
+   -
+     name : Planning
+     identifier : 0x2885e60e1c89d567
+     internal_properties : CAAAAAgAAAC6tXICqOwtIk/Di/+XvTiPw+zBvtHbZTiqk/ren0f7B0qNgXdkAiTVpaGlV4WA9aZ/6ibLhulWjNWBjYkbgYdJV5baA/E+p2uqtklxsCvgX9fte/qHrL26eXMBCqQCIlv+OyVvGzYZbGDu26KU1E0cA7M4KZ4y3YW6JWJXYcLCTu+BBilXfMjeKX1fBIdDnfJ5cGc7qNYwb6/x3tJuPIvhMFghf3pkeubl1fzhKIT0PFZp+ZwhwyHEiyqfUCTf7It/rxiAOtwI+bFouDIHUjt8az5klqP8uafOAxuXR+ZJO23TyzNnirvI/EguTzAUR40BC7TAp3admnhRFyuXT+2xBLQWt2kVYPmR
+     options :
+      -
+        name : Période_et_personnes_affichées_
+        identifier : 0x2885e60e1c8ad567
+        internal_properties : CAAAAAgAAAA9LLmjRDFEK2QDvHJ9zkqGloTdS2r7v/+9L9euggq+W3uKMLUN/+QQCIXudZN+MbDA2grHMDqYuYraytmRh9YqM54IkEP4X6PuMVEDW+4Ti3+2Ev8vqqvSuoLhXRahPMbowYvMTPhW+QiHsAKTlKtdHqRRClWuIVGp3xAzlEoyWz6bVR/ljVr0+gfuGJGzjtxIo4UIkUrcrvarByaC+NFfBtW8rxF8PCMmuejWKUZS1dkxy3M50Na+lpwQFIGDSjzS8vjzAfWYOvhg1O0xt1C7Ns0Y1DqO2LaZjm/CWh9JEqEtVTx6kv9n1uz0iMtZ/bWW+a/GDcmgzS8YZCrGmow0pqNhfiXjRQRJ5kL7ZR+ysQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             // Choix de la période & des personnes
+             si  ouvre(FEN_TypePlanningFiche,gdDateDebut,gdDateFin,gsListeQui) alors
+             	AffichePlanning(gsListeQui)
+             FIN
+            type : 32
+      -
+        name : Planifier_une_nouvelle_tâche_
+        identifier : 0x2885e60e1c8bd567
+        internal_properties : CAAAAAgAAADNYHe9hg8Rtwl2llr/usdBs0EyPcGB7Zd7431kXwycYzy80Qqfh84og+QkM5aFoXlmOXJnPeEhtDXPMvUCEC3bIujkEWv4CTrdGRGlqEnGKJOI5cxd4/NjcPNmApDF/CipPLd4kW47uQU74TzmZh2pDFNIh7bFjtkySBVwGGXvxqBk+L1MXMqPc48mEaN1NeyQC90TL13qwDDWzMxHb8J42YbWOU690tX5iYHb8tUM4vYm9a03v4lOyJ7ZbQ6WrEQbenMBT13HoHPU0sh++m1JThVy8v9DMUQTsYExmADxmU2haNr743plvtgO+tloo0GKwvTE4d5uoqwl28OpOFToXj5ZTXkZN0RQ0FfVSQM/AGAas5BdfroGc/EPiA==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             NouvelleTache()
+             
+            type : 32
+      -
+        name : OPT_Importer_un_agenda_Google
+        identifier : 0x29217d790e71a668
+        internal_properties : CAAAAAgAAACXb00/CiF7WBHE4ITs+L1OBbMxG1BBtGPmcWx2Vq6ez+zAAowTspwl7RPY/JUu2/MzXvTEN61ng74csh+Jyvffh/w5bhWULO83ZVPr60PrGEZKLHG4102MTh2S7bCJh/GYfc/XDjUcIMpXADiXFbEmLlE/pn8j6YpaglAOJ3wllxZ6qOi7CrsWvuYqk7f4K/wdFOE14nmSSM4UN8puW/gMvmK0asNMDSluG2REx7AZsrFZIJmG/ReLpixErUSmQzOgyf43ntS8B708oqc9RldRilhMgRr7Ya6tCRgHOn9KwmAIO00RiMl7XIa3ONjEZ8PITC1uSk+4GJHdun8kJENCbLdI/2erVn/fV6uuTKR3cgp7lN6Ha+w=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             
+             Ouvre(FEN_TacheImportGoogle)
+            type : 32
+      -
+        name : OPT_Importer_un_fichier_iCalendar
+        identifier : 0x264b39b802370651
+        internal_properties : CAAAAAgAAAC3SRkHRidQAedygs4aoVOPUQjKPKWjgukb9kEuk46OxxCvy5Xfj4esvIg6AqFUxexIrDmnu+NoFy7imWC21SMKflL2aWj/a5dnnjcLagK3x663rBnw+KE2SLjV0rE1Ekf5lib3ZcxgbZuuc/hwh9NhnoFJgItQEhTc2tjHnrPr+NSi2xY4cj5WhRkwptIDP2E8oRZk2UajHwZONPRqxyD1q9OWH0daa4Wr9ejQBH0QycFZ1F/mfXpiG/5pcnGhuEs6yWcYv6s7iO+YkcZRChhm+E7OGSvNu1UPoLWyKL/Uj20IdgJWI90gF54eFmdVHA63UeGI0AlXFrbftHZK4Tu2KLtNzZhHErjcP0PmUIAXndJxqrAhiww=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            internal_properties : CAAAAAgAAADQeTMQm6RsKecOrU4JhDojhD5z7axwvRwo9P4nV7zql+gSEYS0G9Q/uw2NV6p4EnslkgArjJusmlyh89tTplyDglRURQklf1cMUH8xbns8e30lAzRbO2/kgnDP0OpPbNfbOJzQEwONinocxML+fo7vICtUEVhHUxMi1MPL6aXsoFFqx1zBP1wdouW1KEODx4WU
+            code : |1+
+             // ID de la ressource
+             sRessource est une chaine
+             // Chemin du fichier
+             sFichier est une chaîne
+             // Chaine contenant le planning au format ics
+             sICalendar est une chaine ansi
+             
+             
+             // Ouvre le sélecteur de fichiers
+             sFichier = fSélecteur("", "", "Importez votre planning ...", "Fichier iCalendar" + TAB + "*.ics", "*.ics", fselOuvre)
+             
+             SI sFichier = "" ALORS
+             	RETOUR
+             FIN
+             
+             // On récupère le contenu du fichier
+             sICalendar = fChargeTexte(sFichier,foAnsi)
+             
+             // On cherche la ressource 
+             sRessource = ouvre(FEN_SelectionPersonneiCalendar)
+             
+             // On vérifie si la ressource est correcte
+             SI sRessource="" ALORS
+             	RETOUR
+             FIN
+             
+             // On ajoute le fichier ics aux fichiers de données
+             tabRDV est un tableau de RendezVous = iCalendarVersRendezVous(sICalendar)
+             SI PAS ErreurDétectée ALORS
+             	POUR TOUT ELEMENT rdv DE tabRDV
+             		// On RAZ le fichier
+             		HRAZ(TACHE)
+             		
+             		// On affecte toutes les rubriques
+             		tache.CONTENUTACHE=rdv.Contenu
+             		TACHE.DATEDEBUT= rdv.DateDébut
+             		TACHE.DATEFIN = rdv.DateFin
+             		
+             		si HLitRecherchePremier(LIEU,LIBLIEU,rdv.Lieu)=vrai ALORS
+             			TACHE.IDLIEU=LIEU.IDLIEU	
+             		FIN
+             		
+             		TACHE.IDPERSONNE=sRessource
+             				
+             		SI HLitRecherchePremier(TYPE,LIBTYPE,rdv.Catégorie)=Vrai ALORS
+             			TACHE.IDTYPE=type.IDTYPE
+             		sinon
+             			// On met le type autre, si on ne trouve pas de type
+             			HLitRecherchePremier(TYPE,LIBTYPE,"Autre")
+             			TACHE.IDTYPE=TYPE.IDTYPE
+             		FIN
+             		
+             		TACHE.LIBTACHE = rdv.Titre
+             		
+             		// Par défaut les RDV importés sont prévu et non confirmé
+             		TACHE.ETATTACHE=1
+             		
+             		// On ajoute l'enregistrement
+             		si HAjoute(TACHE) = faux ALORS
+             			erreur(ErreurInfo(errComplet))
+             		FIN
+             	FIN
+             FIN
+             
+             
+             // Tracé du planning
+             AffichePlanning(gsListeQui)
+             
+             // On se positionne au début de l'agenda
+             PlanningPositionDateHeure(PLN_PRINCIPALE,gdDateDebut)
+             
+             ToastAffiche(<§$0007§>)
+             
+            type : 32
+      -
+        name : OPT_Exporter_le_planning_dans_un_fichier_iCalendar
+        identifier : 0x264b39cb023951b1
+        internal_properties : CAAAAAgAAABJF1JFjff0aEbzH6e3MNw2n5Li/8pAVtwYUMC2N0YHVq8UrgoIg/yVzKyQ1uGZ5eZdGrviYhvy2nuYIXngArjBZVcaLBvcqYcYZuAiwPYrt5KjMwzTP5+C0u5uccbcmByGPb7J4yu28kNo3P8eYcbm64/hZjvsZyeKGGkxeoZDGd5S9a83yDR3R/8q/ll/yWs1i+/aK5uWvM9r6VBqSWziZAuenuYLIH4QNqSQrxiLDEMn25QqBjKsB4V4DYqfRe93c6E0vGVsdvoTRF6QSSo2DeboqrEhmVQclP9FKAjoGlyllz46AwIU0U/1dk9BprXsMd59QyuPEelbqqH5KsQuG7ICew9s6PGPoRvkF/wFbVehrr8g294+Fr91oqT+zS/pO+Fb2/1K
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            internal_properties : CAAAAAgAAABzWrI4z90WFUkKS32Wxu4zYpyS2IW7ClHHtHr4lMvHF+QBtVVKCadLTMuM6evmnY5Df3XbrscMZxIP4+hpZev2JHju9PvI5oxchTN25hr1rAo3Qoo0aNYJRPW0TOB2KaMMsJf7NbAk09krZwypvObyKeDs7H6TEAApuhIrA7X8fw==
+            code : |1+
+             // ID de la ressource
+             sRessource est une chaine
+             // Date du planning à exporter
+             PeriodeExport est un STPériode
+             // Chemin du fichier
+             sFichier est une chaîne
+             // Chaine contenant le planning au format ics
+             sICalendar est une chaine ansi
+             
+             sRessource = ouvre(FEN_SelectionPersonneiCalendar)
+             
+             // On vérifie si la ressource est correcte
+             si sRessource="" ALORS
+             	retour
+             FIN
+             
+             // On récupère la période d'export
+             PeriodeExport = ouvre(FEN_SelectionPeriode_iCalendar,gdDateDebut,gdDateFin)
+             
+             // On vérifie que la période est correcte 
+             si PeriodeExport.dPeriodeDAtedébut = null et PeriodeExport.dPeriodeDAtefin = Null ALORS
+             	retour
+             FIN
+             
+             // On réalise l'export
+             sICalendar= PlanningVersiCalendar(PLN_PRINCIPALE,sRessource,PeriodeExport.dPeriodeDAtedébut,PeriodeExport.dPeriodeDAtefin)
+             
+             
+             // Ouvre le sélecteur de fichiers
+             sFichier = fSélecteur("", "", "Sauvegardez votre planning ...", "Fichier iCalendar" + TAB + "*.ics", "*.ics", fselCrée)
+             
+             si sFichier = "" ALORS
+             	retour
+             FIN
+             
+             // On demande ou enregistrer le fichier crée
+             fSauveTexte(sFichier,sICalendar)
+             
+             ToastAffiche(<§$0006§>)
+             
+             
+             
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes :
+    -
+      code : |1-
+       
+      type : 32
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADrHnFfoWH3GEbwaHHyg5hVbrVkObaDHgJKoxq73sf/6D1F6UxOgHRMUTmyooCJy/HSJznD/QVhkY0rNcggRQBL4UP5h4ilauI3599ZC6X/hJ1OabmtYwRrr612DypdyFs=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      // Dernières valeurs par défaut
+      gdDateDebut est une Date
+      gdDateFin   est une Date
+      gsListeQui  est une chaine
+      
+      // Initialisation
+      gdDateDebut = DateDuJour()
+      
+      // Date de fin
+      gdDateFin = gdDateDebut
+      gdDateFin..Jour +=31
+      
+      // Données de test si besoin
+      _DonnéesDeTest()
+      
+      gsListeQui  = remplace(inilit("LASTVALUES","ListeQui","",fRepEnCours()+"\PLANNING.INI"),";",tab)
+   -
+     code : |1+
+      
+      Initialisation()
+      
+      AffichePlanning(gsListeQui)
+      
+      // On se positionne au début de l'agenda
+      PlanningPositionDateHeure(PLN_PRINCIPALE,gdDateDebut)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      // Mémorisation des paramètres actuels
+      iniecrit("LASTVALUES","Du",gdDateDebut,fRepEnCours()+"\PLANNING.INI")
+      iniecrit("LASTVALUES","Au",gdDateFin,fRepEnCours()+"\PLANNING.INI")
+      iniecrit("LASTVALUES","ListeQui",remplace(gsListeQui,tab,";"),fRepEnCours()+"\PLANNING.INI")
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : AffichePlanning
+     procedure_id : 1767071376638661976
+     type_code : 14
+     code : |1+
+      PROCEDURE AffichePlanning(sListeQui)
+      
+      // Variables
+      i est un entier
+      IDPersonne sont des entiers  
+      tmpRDV     est un RendezVous
+      
+      
+      // Réinitialise
+      PlanningSupprimeTout(PLN_PRINCIPALE)
+      
+      // Initialisation
+      i++
+      IDPersonne=Val(ExtraitChaîne(sListeQui,i))
+      
+      // Pour chaque personne sélectionnée
+      TANTQUE IDPersonne <> 0
+      	// Recherche des tâches sur la période donné, pour la personne en cours	
+      	hfiltre(TACHE,IDPERSONNE,IDPersonne)
+      	HLitPremier(TACHE)
+      	
+      	// Si la personne a des taches on l'insère dans la liste et on boucle insérer ses taches
+      	SI HTrouve(TACHE) ALORS	
+      		// On filtre les informations de la personne
+      		hfiltre(PERSONNE,IDPERSONNE,tache.IDPERSONNE)
+      		HLitPremier(PERSONNE)
+      		
+      		// On a trouvé la personne, on l'affiche dans le planning
+      		PlanningAjouteRessource(PLN_PRINCIPALE,PERSONNE.NOM + gLien(TACHE.IDPersonne))
+      
+      		// Tant qu'il y a des taches donnés pour cette personne dans le planning, on les affiche
+      		TANTQUE PAS HEnDehors(TACHE)
+      			
+      			// On filtre les informations liées à la tache
+      			hfiltre(TYPE,IDTYPE,tache.IDTYPE)
+      			HLitPremier(TYPE)
+      			
+      			HFiltre(LIEU,IDLIEU,TACHE.IDLIEU)
+      			HLitPremier(LIEU)
+      			
+      			// Ajout de la plage
+      			tmpRDV.Ressource   = TACHE.IDPersonne
+      			tmpRDV.Titre       = TACHE.LIBTACHE
+      			tmpRDV.DateDébut   = TACHE.DATEDEBUT
+      			tmpRDV.DateFin     = TACHE.DATEFIN
+      			tmpRDV.Catégorie   = TYPE.LIBTYPE
+      			tmpRDV.Contenu     = TACHE.CONTENUTACHE
+      			tmpRDV.CouleurFond = TYPE.COULTYPE
+      			tmpRDV.Note        = TACHE.IDTACHE
+      			tmpRDV.Lieu        = LIEU.LIBLIEU
+      			tmpRDV.Bulle       = TYPE.LIBTYPE + " - " + LIEU.LIBLIEU
+      			tmpRDV.JournéeEntière = TACHE.JOURENTIER
+      			PlanningAjouteRendezVous(PLN_PRINCIPALE,tmpRDV)
+      			
+      			HLitSuivant(TACHE)	
+      		FIN
+      	// Sinon on insère juste la personne dans la liste si elle existe
+      	SINON
+      		HLitRecherche(PERSONNE,IDPERSONNE,IDPersonne)
+      		SI HTrouve() ALORS
+      			HLitRecherche(GROUPES,IDGROUPE,PERSONNE.IDGROUPE)
+      			// Ajout de la personne dans le planning alors qu'elle n'a pas de tâches sur la période
+      			PlanningAjouteRessource(PLN_PRINCIPALE,PERSONNE.NOM + gLien(PERSONNE.IDPERSONNE))		
+      		FIN	
+      	FIN
+      	
+      	// On passe à la personne suivante
+      	i++
+      	IDPersonne=Val(ExtraitChaîne(sListeQui,i))	
+      FIN
+      
+      HDésactiveFiltre(LIEU)
+      HDésactiveFiltre(TYPE)
+      HDésactiveFiltre(TACHE)
+      HDésactiveFiltre(PERSONNE)
+      
+      
+      
+     type : 458752
+   -
+     name : TriListe
+     procedure_id : 1767071376638793048
+     type_code : 14
+     code : |1+
+      Procédure TriListe(sListeQui)
+      
+      // Tri la liste des personnes en ordre alphabétique
+      
+      memcree("ZMemTrie")
+      i, IDPersonne sont des entiers  
+      
+      // Parcours de la liste actuelle des n°s
+      boucle
+      	i++
+      	IDPersonne=val(ExtraitChaine(sListeQui,i))
+      	// Recherche du nom de la personne et chargement de la zone mémoire pour le tri
+      	HLitRecherche(PERSONNE,IDPERSONNE,IDPersonne)
+      	si HTrouve() alors Memajoute("ZMemTrie",PERSONNE.NOM,PERSONNE.IDPERSONNE)
+      	si IDPersonne=0 alors sortir
+      fin
+      
+      // Tri mémoire
+      MemTrie("ZMemTrie")
+      
+      // Réinitialisation de la liste
+      sListeQui=""
+      pour i=1 _à_ memoccurrence("ZMemTrie")
+      	si pas sListeQui~="" alors sListeQui+=tab
+      	sListeQui+=memrecupere("ZMemTrie",i)
+      FIN
+      
+      // Libération de la zone mémoire
+      MemSupprimeTout("ZMemTrie")
+      
+     type : 458752
+   -
+     name : NouvelleTache
+     procedure_id : 1767731702092316211
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //NouvelleTache ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure NouvelleTache()
+      
+      // Appel de l'assistant
+      nIDTacheCréée est un entier = ouvre(FEN_TacheFiche)
+      
+      SI nIDTacheCréée <> 0 ALORS
+      	// Recherche de la tache créée pour l'afficher
+      	HLitRecherche(TACHE,IDTACHE,nIDTacheCréée)
+      	
+      	// Personne déjà affichée dans le planning ?
+      	SI Position(gsListeQui,NumériqueVersChaîne(TACHE.IDPERSONNE)) < 1 ALORS
+      		// Ajout de la personne dans la liste
+      		SI PAS gsListeQui~="" ALORS gsListeQui += TAB
+      		gsListeQui += TACHE.IDPERSONNE
+      		
+      		// Tri de la liste (n°s des personnes) sur le nom
+      		TriListe(gsListeQui)
+      	FIN
+      	
+      	// Tracé du planning
+      	AffichePlanning(gsListeQui)
+      FIN
+      
+      
+     type : 458752
+   -
+     name : Initialisation
+     procedure_id : 2071672733587517879
+     type_code : 14
+     code : |1+
+      // Résumé : Initialise les données de l'application
+      // Syntaxe :
+      // Initialisation ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Initialisation()
+      
+      // Renseigne les jours fériés
+      POUR TOUT JOURFERIE
+      	JourFériéAjoute(NumériqueVersChaîne(JOURFERIE.MOIS,"02d") + NumériqueVersChaîne(JOURFERIE.JOUR,"02d"))
+      FIN
+     type : 458752
+   -
+     name : _DonnéesDeTest
+     procedure_id : 1884737683639590241
+     type_code : 14
+     code : |1+
+      // Résumé : Génère des données de test si besoin
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE _DonnéesDeTest()
+      
+      // S'il y a des tâches, on ne fait rien
+      si HNbEnr(TACHE) > 0 ALORS
+      	retour
+      FIN
+      
+      // Question
+      si ouinon(<§$0009§>) = NON ALORS
+      	// Pas de données de test
+      	retour
+      FIN
+      
+      // Génération des données
+      dhAujourdhui est une dateheure
+      dhAujourdhui..PartieDate = DateDuJour()
+      dhAujourdhui..Heure = 8
+      dhDebut, dhFin est une dateheure
+      
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 6
+      dhFin = dhAujourdhui
+      dhFin..Jour += 16
+      _AjouteUneTache(dhDebut,dhFin,<§$0015§>,1,28,7,13,<§$0016§>+rc+ <§$0017§>,0)
+      
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 5
+      dhFin = dhAujourdhui
+      dhFin..Jour += 11
+      _AjouteUneTache(dhDebut,dhFin,<§$0014§>,1,19,9,12,"Vacances en Guadeloupe",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 1
+      dhFin = dhAujourdhui
+      dhFin..Jour += 6
+      _AjouteUneTache(dhDebut,dhFin,<§$0013§>,2,12,28,13,"",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 11
+      dhFin = dhAujourdhui
+      dhFin..Jour += 19
+      _AjouteUneTache(dhDebut,dhFin,<§$0012§>,1,27,31,11,"Permanence pour la maintenance des serveurs.",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 16
+      dhFin = dhAujourdhui
+      dhFin..Jour += 22
+      _AjouteUneTache(dhDebut,dhFin,<§$0011§>,2,26,40,3,"Préparation de la démonstration pour les clients les plus importants. Penser à envoyer les serveurs à Paris.",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 7
+      dhFin = dhAujourdhui
+      dhFin..Jour += 19
+      _AjouteUneTache(dhDebut,dhFin,<§$0010§>,2,4,16,7,"Rattrapage des heures supplémentaires.",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 11
+      dhFin = dhAujourdhui
+      dhFin..Jour += 26
+      _AjouteUneTache(dhDebut,dhFin,<§$000f§>,1,9,31,8,"",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhFin = dhAujourdhui
+      dhFin..Jour += 5
+      _AjouteUneTache(dhDebut,dhFin,<§$000e§>,1,23,28,7,"Nouvelles versions à empaqueter.Version française et anglaise.",1)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 14
+      dhFin = dhAujourdhui
+      dhFin..Jour += 21
+      _AjouteUneTache(dhDebut,dhFin,<§$000d§>,1,32,20,12,"Relookage des exemples livrés avec le produit afin de les mettre à la norme de l'entreprise.",0)
+      
+      // Une tâche
+      dhDebut = dhAujourdhui
+      dhDebut..Jour += 14
+      dhFin = dhAujourdhui
+      dhFin..Jour += 33
+      _AjouteUneTache(dhDebut,dhFin,<§$000c§>,2,30,16,12,"Vacances annuelles.",0)
+      
+      
+      
+      
+      	// Ajoute une tâche dans le fichier
+      	Procédure interne _AjouteUneTache(dhDebutTache est une dateheure, dhFinTache est une dateheure, sLibelle est une chaîne, nEtatTache est un entier, nIDPersonne est un entier, nIDType est un entier,...
+      	nIDLieu est un entier, sContenuTache est une chaine, nJourEntier est un entier)
+      	
+      	HRAZ(TACHE)
+      	TACHE.DATEDEBUT = dhDebutTache
+      	TACHE.DATEFIN = dhFinTache
+      	TACHE.LIBTACHE = sLibelle
+      	TACHE.ETATTACHE = nEtatTache
+      	TACHE.IDPERSONNE = nIDPersonne
+      	TACHE.IDTYPE = nIDType
+      	TACHE.IDLIEU = nIDLieu
+      	TACHE.CONTENUTACHE = sContenuTache
+      	TACHE.JOURENTIER = nJourEntier
+      	HAjoute(TACHE)
+      	fin
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : MAIN
+resources :
+ string_res :
+  identifier : 0x3b24de6373e857c1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Planning
+     index : 0
+   -
+     text :
+      fr-FR : " du "
+     index : 1
+   -
+     text :
+      fr-FR : "Planning du "
+     index : 2
+   -
+     text :
+      fr-FR : " au "
+     index : 3
+   -
+     text :
+      fr-FR : "Réaffecter la tâche à "
+     index : 4
+   -
+     text :
+      fr-FR : Quitter le planning ?
+     index : 5
+   -
+     text :
+      fr-FR : Le planning a été exporté avec succès
+     index : 6
+   -
+     text :
+      fr-FR : Le fichier iCalendar a été importé avec succès
+     index : 7
+   -
+     text :
+      fr-FR : Semaine %1
+     index : 8
+   -
+     text :
+      fr-FR : Voulez vous créer des données de test pour l'exemple ?
+     index : 9
+   -
+     text :
+      fr-FR : Documentation du produit
+     index : 10
+   -
+     text :
+      fr-FR : "[\r\n\tFin de la documentation.\r\n\t\nPréparation pour envoyer à l'imprimeur.\r\n]\r\n"
+     index : 11
+   -
+     text :
+      fr-FR : Vacance
+     index : 12
+   -
+     text :
+      fr-FR : Refonte des exemples
+     index : 13
+   -
+     text :
+      fr-FR : Empaquetage
+     index : 14
+   -
+     text :
+      fr-FR : Formation
+     index : 15
+   -
+     text :
+      fr-FR : Congés supplémentaire
+     index : 16
+   -
+     text :
+      fr-FR : Démo nouvelle version
+     index : 17
+   -
+     text :
+      fr-FR : Permanence
+     index : 18
+   -
+     text :
+      fr-FR : Préparation colis
+     index : 19
+   -
+     text :
+      fr-FR : Congés
+     index : 20
+   -
+     text :
+      fr-FR : Documentation du produit
+     index : 21
+   -
+     text :
+      fr-FR : Fin de la documentation.
+     index : 22
+   -
+     text :
+      fr-FR : Préparation pour envoyer à l'imprimeur.
+     index : 23
+   -
+     text :
+      fr-FR : ",\"Vacances en Guadeloupe"
+     index : 24
+   -
+     text :
+      fr-FR : "7,13,\"Permanence pour la maintenance des serve"
+     index : 25
+   -
+     text :
+      fr-FR : "3,\"Vacances annuelles"
+     index : 26
+   -
+     text :
+      fr-FR : "\"Vacances annuelles.\""
+     index : 27
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Principale.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,183 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ETAT_PLANNING
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : Planning
+ subtype : 0
+report :
+ identifier : 0x5ed8b87104d2a01a
+ internal_properties : CAAAAAgAAAABrtb+bfAx54pCbES0vywfK5HF8v65ubGglB4p8BX6Xhsb77pNhABChLKDrKxpj7B1LI2mH3iEMchAM+/P2qaQl4Z+OOm8fSynQ7nykdhAIVwE2IVaZZn08F1SZkJGKY4AKcgVEYZYfCFHD5ayroujkh/W/Qyb/eGr1BKvh38SDXqVHOFrhy9s1XuQLhoTwAyhzvH6eU5Y4qFUzSRuUh756Y1hq+EFRAfv7CrC8T+a+5DS8nWgK4iZo2kSEIneauekHorL+aFX0f6XJvkS4HXMajXui3tU2/Uac2LnDNI6yq/DSKM8jGKyfecXkqGePBA98/Y6jp/fBNv2QpYETMajsT7bl2yP5GpLvUlK8LSfyehz1iFwhjK6U4tkfHY/oK25jAZr4gaySW2kQOkUCw0RKnf5s8SU8Qc2hRD7LlIcf+VsbnD4UIspspe7o+/vNWQNzXqeeb/oiVd0Wq+Y+LLX3VDCgGMljZDl9wkLn/aiXWsETJMjYtvmrcdp4OcNLcsb9xBd51GjigRGthVtwAjBwr4Vt7ULJCcl5XtHIrMFAiXAohg+9WTI8A+Yq1b/YoxHtpbqNgKeQ7W8yXcm3F9q8WJabtzpbEnt62GLcnsXHovgpLkBe/oPh/knLsGJrnA/ojRWCkPKMxjbEOgVleFtOHKyJxriJMbVbGzZpD53hUJOfSAa+6GiNMAukl+YBVje7URwp2X4h8+soJSqRHzpi91b8vgAXlkf+gkc1EaqkmqVUdIoRQ+sdr5Hjt3wK632e80GHr+6T4N1jxR/JNlteGCbSqwcHStmwDvXv+jmp0LgkGGu0sikpA5R6tV98jqEF32Uo7LwAQ==
+ languages :
+  - fr-FR
+ blocks :
+  -
+    name : DEBUT_DOCUMENT
+    identifier : 0x5ed8b87104e0a01a
+    internal_properties : CAAAAAgAAADNxNcxWrQAVZwynfLxYENZI3IyiMiNsqvwGMmzWbYpEkxhi5v/Q5BHPWZW4lN/JZQ/3oqwJG9xlkOQjRjtOqoaQ2GoLMhY8RVrpIB9jAAFxPt6kSRuWcp8zdyeQ/fXWf2YujZvyMPcaKxEHqPmOGQkrA8c2axqZ4M9xYDEhZ/JL6S0J9WDpkmUNPkHgg3sE3W774TzpoZRbOZa66B0P5J0OJQUoCfAcyxcB+LN8NFszxsDYSGQDHCk68sxwMM4HuqwlJaFAJ4mex2zSlkmoBo=
+    controls :
+     -
+       name : TITREDOC
+       identifier : 0x5ed8b87104e1a01a
+       internal_properties : CAAAAAgAAACJ9nsTp9bUQTBYs6PTRrQmAqmPJWproAbOLrW89NueIVi/Vihi55UznsiL9hwg+KbjBfwsDATs6K3rUR4JtMXWymeoIbCkzxLDappw0qcsrJUfSS0/t3y6dwso9Ln/KBHtCMpA0TDVbsxHCHmMDSopgLZO4jymVC+fP54Snh6W/ReaIiCD3FJV6O+XxOovZi51yDB8eRo1j+wW2HfLCQ1rpO501ywy0FfTZITrK4wJXcsaOLU4r6qA1U1aOVfQhrastRmtp9JdGoKgcr6ZVXXhX+tjkTIEZq0QPN4IrFhadk31uYtvQhou9Zn7z8f1sy0PbllI6fm6yePbjXD0swnt9asAEwra8T4I78MPlYipgh1EyQAL1L1UrFswBsTikDRkzyyub6GqVonwbYILiFvnRUE4e+1E1sjhUfLnKhIPR+EvxV80Q10hLcJIY8JfuIeC7YTLklBFPW94gA==
+       properties :
+        x : 14.3
+        y : 1.65
+        width : 25.196
+        height : 7.983
+       code_elements :
+        type_code : 29
+        p_codes : []
+     -
+       name : CHAMP58
+       identifier : 0x5ed8b87104e3a01a
+       internal_properties : CAAAAAgAAADlBe4FW8y9dDhVAzz0+XBgnacHx/yJxM4untGwD8IxXWYwpEN29FSTiQyy7M/dc5dKEHj02W0RETZ3q3qmvr8hCg8SJCompbilPaJgR0GzM4gP435qRyKVCtOun40ZETTjPE8oX1fbmc0YBQOJkvpgNyB5diTxRCnktDFRvxYxsDloVdQea/ZH9jq6xC+EF4gFY1M1EkU35Klh8V7yeBpRnFBvUQFLpaNdOXjtI1FpB4864l3bzKMTZHdR8Rq76416OeRgrUuXHQTH0DtNe31e1emdxr+Xn7CrKBG2BF/O5f0PYd2AnbsI9KTacIkX6SchGc8wmSHJpppu6DO2S9KIzAoqNmQpUkUtVjX/O0sloaV7HvsQ1E4GIw/h15gsZK2cSp0oYJ8OOCUs/7FxNFHjrZBIw3BxZzx5grtzHazOAWEO7QJecxJ24582et4=
+       properties :
+        x : 244.8
+        y : 1.65
+        width : 32.2
+        height : 5.72
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     width : 277.
+     height : 9.633
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : ENTETE
+    identifier : 0x5ed8b87104f6a01a
+    internal_properties : CAAAAAgAAADbxFkXn/ix7/PktVbCx6kGnMO3oEHQblEIPQ3SXEbMtgu68dI2lDm72x6YvB0p/41QSQVr0kLv/SMoMLiTpI3XPp4tXIZTHSvPJrL0uUxgUqBlKQPTU0ruINyBnphADQ6Weq6l0KRH46DaH0YJjP13n3cxFF09a/hBQSZyYWAireBDP64NQfi9RO3gmhPXYDWslQYYUMRl/vfwT8v+jM57vWfLSbZtQTMnxEJMvUC3m/0N/GYLU5Ql3ezML5j5m/fISA==
+    properties :
+     y : 9.633
+     width : 277.
+     height : 10.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : CORPS
+    identifier : 0x5ed8b871050ea02a
+    internal_properties : CAAAAAgAAADfS4Ixybf4JBrruZ9VXEb0X/5FPkene77bZBK9ehst+aCYJ1mgmy+GBDJGpzm85zjt9dAI6zA5ZjNdOPIlOV/s65/1j6CHeCNl2Th3fdtlbZpeUMzoCV6zbAUm42K8D1JEcU9f1fI9N4UVPJ6ILBZ9h1QIiB7fVWDMGA+EGvbbw1dfQ+Eq05ct6AV0iVP6BjwO/FH9cyXvdU0CqZNOk0yelv+XUuSSaGKBlQkViEbIVUXDUVRS+NCZfnxkoLo8GnA1zFA=
+    controls :
+     -
+       name : PLN_PLANNING
+       identifier : 0x5ed8b80704a7041a
+       internal_properties : CAAAAAgAAAASADpYTFRPIki1SCSHOSemNm/E2Czb796LPb56e4FSfJS3/0ZHo0PzMscjs8DBbpoUb/a8aObJa5ONWR//w809daP28UrTtQHshuKd/5u0wErzu00iuvLENy6BsJ4tPbNfcGzpiSLQYNHgPLbFX/sgwo5cXs0tH5P0O3EY9fYQXWpoC49sCnO3vA8MA5d9CM2253nv7NJqdTDtFqZDdTTv29HVXS/EokIJ0ASClqdPWWUN1pBLJxLLI9HturzWzjvRgRQWK12PPYg3PJn4EVUg90qjFS8I8MpykHxWGkmxCBQMR8MLufsMB3TI12n9ewrCxarSkmmgwrwt+3ObEXkhFHHXCP1c5JyBuCBjbXjt/8xGWAuN7iMEFaF8IY6NyGJlflgwihGPfUxGKCgbzcBmkkQ7xLb+F9IeXHyKOxYtsKW3R+0xqZWowC/vxv85QlGEbhBKQ/eP0pbHXmooRiG5dm7L0193RQl/H2WsE4vuj/G0jdD0JTAZ/wow8oUbFvPE3cIHY2dhm+OsMh6WlM+UtwmWFPH5HOu6Eq81fglB0nWr0aE7fWMjWzWwEGgG1Csm17+/m2N5+uwO6xVVmz3+
+       properties :
+        width : 277.
+        height : 15.
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     y : 19.633
+     width : 277.
+     height : 15.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        code : |1-
+         
+        type : 327692
+      -
+        type : 327697
+        enabled : false
+  -
+    name : BAS_DE_PAGE
+    identifier : 0x5ed8b8710524a02a
+    internal_properties : CAAAAAgAAAAELXN/WaBuEMUAY3RtldNK30zTpENC2efP8whEKDs+K51IRzxdp9UO1MyuNW2EN7o3BzuRtanU4awTbVF9Der0bhIWtX0oXfJQsA455nkOvKxzqriy1cMHVvG78RXsaqeeIJlHIT8PRZiqnloYwcqzHSFo1DPWHmRzHKS0WsC4h4f1HZrAg7iHCCXnVEXFltNcAAp+xJzAw4ovKYfAnhHZnwxa7BpPfhxnrj4O8kGeYHprgjCp5h6f/wWa+/WySqDtOGs08P4YXVr+HLc=
+    controls :
+     -
+       name : NUMNBPAGES
+       identifier : 0x5ed8b8710525a02a
+       internal_properties : CAAAAAgAAADbquwDPjDnrvKo7pjeoCqlYpDSOVUkIWw9iAdODPwsnJZi1027d4JZXbZJpxyChqtmGuJgXU7d7jPFinPI7Jj3Q9KvYb9Unl93ZI69ZlgbtskTVWQ0U63Z53gH1e4TwyYJfaUKnpxHBaINrPAblFzmexZ+d+tdXAQkS4TukEeXUz+JG6ECg04N5qONFip5nI0BjOcGgJnEd8fWYTuP3yd29gNVzkc0LzCaYyVvP+0pbxoHcZ3EtTFhKlizkJiI1eAfA3gBetlLT14OOvSFeGffbr+W8GBbS18TWAgPgjm26fZT4GDV5MEaqL/+ftiURvIhJGt0zgAjIZOJ+Twv29mko951rrkBagKcGjiF0g7iz6wgM59+Sa86V1/4DlRtflZZPqI9oxILV6ol1vxn79OcX8x09hYDovfezUW2y8NehvkvfXZLnirE1wpxv++S5GBHpcFk1rECkjWYHMxPb4tSRBsYfv4/hL37adRUTT6W6wKlHJ8qp0kVF0avcBI8OKOKJvlm5tUY2yp166EoTw==
+       properties :
+        x : 243.721
+        y : 0.7
+        width : 33.279
+        height : 5.72
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     y : 34.633
+     width : 277.
+     height : 6.68
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  type_code : 13
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE ETAT_PLANNING(LOCAL gdDateDebut est une Date, LOCAL gdDateFin est une Date)
+      
+      POUR TOUT TACHE 
+      	bOK est un booléen = Faux
+      	
+      	// Si la date de début de la tâche est plus petite que la date de début, il faut alors que la date de fin soit au moins plus grand que la date de début
+      	SI TACHE.DATEDEBUT <= gdDateDebut ET TACHE.DATEFIN >= gdDateDebut ALORS
+      		bOK = Vrai
+      	FIN
+      	
+      	// Si la date de début de la tâche est plus grande que la date de début, il faut alors que la date de début de la tache soit plus petite que la date de fin
+      	SI TACHE.DATEDEBUT >= gdDateDebut ET TACHE.DATEDEBUT <= gdDateFin ALORS
+      		bOK = Vrai
+      	FIN
+      	
+      	SI bOK ALORS
+      		// Variable
+      		dDateDebut est une Date = TACHE.DATEDEBUT
+      		dDateFin   est une Date = TACHE.DATEFIN
+      		
+      		SI TACHE.DATEDEBUT < gdDateDebut ALORS
+      			dDateDebut = gdDateDebut
+      		FIN
+      		
+      		SI TACHE.DATEFIN > gdDateFin ALORS
+      			dDateFin = gdDateFin
+      		FIN
+      		
+      		HLitRecherchePremier(PERSONNE,IDPERSONNE,TACHE.IDPERSONNE)
+      		HLitRecherchePremier(TYPE,IDTYPE,TACHE.IDTYPE)
+      		
+      		PlanningAjouteRendezVous(PLN_PLANNING,PERSONNE.NOM,TACHE.LIBTACHE,dDateDebut,dDateFin,TYPE.LIBTYPE)
+      	FIN	
+      FIN
+      
+      
+     type : 327680
+   -
+     code : |1-
+      
+     type : 327695
+   -
+     code : |1-
+      
+     type : 327696
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ETAT_SansNom1
+resources :
+ string_res :
+  identifier : 0x10f6cb4208022c4b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
